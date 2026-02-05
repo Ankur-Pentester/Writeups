@@ -61,6 +61,7 @@
     * [NoSQL injection](ctf-writeups/portswigger-web-security-academy/nosql-injection/README.md)
       * [What is NoSQL Injection?](ctf-writeups/portswigger-web-security-academy/nosql-injection/what-is-nosql-injection.md)
       * [Lab: Detecting NoSQL injection](ctf-writeups/portswigger-web-security-academy/nosql-injection/lab-detecting-nosql-injection.md)
+      * [Lab: Exploiting NoSQL operator injection to bypass authentication](ctf-writeups/portswigger-web-security-academy/nosql-injection/lab-exploiting-nosql-operator-injection-to-bypass-authentication.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
