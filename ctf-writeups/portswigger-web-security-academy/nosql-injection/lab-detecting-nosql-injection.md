@@ -18,6 +18,6 @@ submit a `'` character in the category parameter. Notice that this causes a Java
 
 <figure><img src="../../../.gitbook/assets/image (452).png" alt=""><figcaption></figcaption></figure>
 
-Then We Use  OR Operators `||`  and Use Boolean Based Payload if 1 is equal to 1 or `' || '1'=='1`Then This Is always We True and They Return All Products !!
+Then We Use  OR Operators `||`  and Use Boolean Based Payload if 1 is equal to 1 or `'1'=='1'`Then This Is always We True and They Return All Products !!
 
 <figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>
