@@ -71,6 +71,7 @@
       * [Lab: Multi-endpoint race conditions](ctf-writeups/portswigger-web-security-academy/race-condition/lab-multi-endpoint-race-conditions.md)
       * [Lab: Single-endpoint race conditions](ctf-writeups/portswigger-web-security-academy/race-condition/lab-single-endpoint-race-conditions.md)
       * [Lab: Exploiting time-sensitive vulnerabilities](ctf-writeups/portswigger-web-security-academy/race-condition/lab-exploiting-time-sensitive-vulnerabilities.md)
+      * [Lab: Partial construction race conditions](ctf-writeups/portswigger-web-security-academy/race-condition/lab-partial-construction-race-conditions.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
