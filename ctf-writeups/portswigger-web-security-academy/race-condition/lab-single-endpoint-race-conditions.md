@@ -9,34 +9,32 @@ To solve the lab:
 
 
 
-Hack
+First Login Using Given Credential and Then Update any Email and Capture The Request In Burp !!
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Then We add Two Request In Group and Then and Send The Sequence and Check The Response Time Both Have approx Similar Response Time Let's Use The Race Condition !!
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Then I Use My exploit email and in Second Request I use carlos Email and Send The Request In Parallel and Check The Email Server !!
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Finally Our Race Condition  Work  !!
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Now We Have a Admin Panel Let's Delete The Carlos User !!
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-hack
-
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+We Solve The Lab after Delete The Carlos User !!
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
