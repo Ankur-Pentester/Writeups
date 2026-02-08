@@ -69,6 +69,7 @@
       * [Lab: Limit overrun race conditions](ctf-writeups/portswigger-web-security-academy/race-condition/lab-limit-overrun-race-conditions.md)
       * [Lab: Bypassing rate limits via race conditions](ctf-writeups/portswigger-web-security-academy/race-condition/lab-bypassing-rate-limits-via-race-conditions.md)
       * [Lab: Multi-endpoint race conditions](ctf-writeups/portswigger-web-security-academy/race-condition/lab-multi-endpoint-race-conditions.md)
+      * [Lab: Single-endpoint race conditions](ctf-writeups/portswigger-web-security-academy/race-condition/lab-single-endpoint-race-conditions.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
