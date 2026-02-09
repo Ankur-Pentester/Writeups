@@ -15,9 +15,9 @@ First Login Using Given Credential and Then Update any Email and Capture The Req
 
 Then We add Two Request In Group and Then and Send The Sequence and Check The Response Time Both Have approx Similar Response Time Let's Use The Race Condition !!
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then I Use My exploit email and in Second Request I use carlos Email and Send The Request In Parallel and Check The Email Server !!
 

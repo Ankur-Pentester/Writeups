@@ -146,5 +146,6 @@
   * [Wordpress: CVE-2021-29447](cve/wordpress-cve-2021-29447.md)
   * [Roundcube: CVE-2025-49113](cve/roundcube-cve-2025-49113.md)
   * [GitLab CVE-2023-7028](cve/gitlab-cve-2023-7028.md)
+  * [GeoServer: CVE-2025-58360](cve/geoserver-cve-2025-58360.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)

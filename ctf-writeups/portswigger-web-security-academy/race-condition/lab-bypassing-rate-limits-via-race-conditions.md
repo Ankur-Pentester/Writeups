@@ -10,11 +10,11 @@ First Capture The Login Page Request With Wrong Credential !!
 
 We Send The Request Three Times and They Give Me The Rate Limit Error !!
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then We Make The Many Request in Groups and Then Send It In Parallel and We See The Response But It's Time We Bypass The Rate Limit !!
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then I use Burp Turbo Intruder in Extention !!
 

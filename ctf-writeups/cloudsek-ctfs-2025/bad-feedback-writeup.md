@@ -1,10 +1,10 @@
 # Bad Feedback ( Writeup )
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### I captured the request from the Feedback portal using Burp Suite’s Proxy module and forwarded it to the Repeater for detailed manual testing.
 
-![image.png](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+![image.png](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
 
 **To validate the presence of an XML External Entity (XXE) vulnerability in the Feedback endpoint, I modified the XML payload by inserting a custom `<!DOCTYPE>` declaration containing an external entity referencing a local file. The injected payload was as follows:**
 
