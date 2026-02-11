@@ -75,6 +75,8 @@
     * [Graphql](ctf-writeups/portswigger-web-security-academy/graphql/README.md)
       * [What is Graphql ?](ctf-writeups/portswigger-web-security-academy/graphql/what-is-graphql.md)
       * [Lab: Accessing private GraphQL posts](ctf-writeups/portswigger-web-security-academy/graphql/lab-accessing-private-graphql-posts.md)
+    * [Essential skills](ctf-writeups/portswigger-web-security-academy/essential-skills/README.md)
+      * [Lab: Discovering vulnerabilities quickly with targeted scanning](ctf-writeups/portswigger-web-security-academy/essential-skills/lab-discovering-vulnerabilities-quickly-with-targeted-scanning.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
