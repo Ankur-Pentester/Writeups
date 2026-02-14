@@ -213,7 +213,7 @@ As part of evaluating the authentication logic, I supplied arbitrary OTP values 
 
 During testing, I replaced all OTP fields with the value `true` to observe how the backend handled non-numeric inputs. Due to PHP’s implicit type juggling, the string `true` is internally converted to the integer `0` when passed to the `Google2FA::verify_key()` function. The server then attempted to validate the OTP against a range of timestamps (window = 4), significantly increasing the likelihood of a false positive match. As a result, all three MFA checks were bypassed successfully, and the server returned the FLAG.
 
-![image.png](<../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![image.png](<../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ```jsx
 Flag: ClOuDsEk_ReSeArCH_tEaM_CTF_2025{474a30a63ef1f14e252dc0922f811b16}

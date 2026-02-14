@@ -54,7 +54,7 @@ Using the internal credentials (`tuhin1729` / `123456`) identified in the BeVigi
 
 **“Earlier in the enumeration phase, the BeVigil report revealed the application’s JWT signing secret (`str!k3b4nk@1009%sup3r!s3cr37`). The presence of a hardcoded, publicly exposed JWT secret combined with a valid JWT token in the session enables full offline token forging. This effectively allows an attacker to modify or create arbitrary tokens, impersonate other users, escalate privileges, or completely bypass authentication.”**
 
-![image.png](<../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![image.png](<../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 **After extracting the authentication JWT from the browser session, I decoded the token to inspect the payload structure. The token was signed using the HS256 algorithm, meaning it relies on a shared secret for verification. Earlier during APK analysis, the BeVigil report disclosed the hardcoded JWT signing secret:`str!k3b4nk@1009%sup3r!s3cr37`.”**
 
