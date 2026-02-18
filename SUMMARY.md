@@ -82,6 +82,8 @@
       * [What is JWT Attacks ??](ctf-writeups/portswigger-web-security-academy/jwt-attacks/what-is-jwt-attacks.md)
       * [Lab: JWT authentication bypass via unverified signature](ctf-writeups/portswigger-web-security-academy/jwt-attacks/lab-jwt-authentication-bypass-via-unverified-signature.md)
       * [Lab: JWT authentication bypass via flawed signature verification](ctf-writeups/portswigger-web-security-academy/jwt-attacks/lab-jwt-authentication-bypass-via-flawed-signature-verification.md)
+    * [SQL Injection](ctf-writeups/portswigger-web-security-academy/sql-injection/README.md)
+      * [What is SQL Injection ?](ctf-writeups/portswigger-web-security-academy/sql-injection/what-is-sql-injection.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
