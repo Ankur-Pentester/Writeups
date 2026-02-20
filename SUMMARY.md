@@ -87,6 +87,7 @@
       * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
       * [Lab: SQL injection vulnerability allowing login bypass](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-vulnerability-allowing-login-bypass.md)
       * [Lab: SQL injection attack, querying the database type and version on Oracle](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-attack-querying-the-database-type-and-version-on-oracle.md)
+      * [Lab: SQL injection attack, querying the database type and version on MySQL and Microsoft](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-attack-querying-the-database-type-and-version-on-mysql-and-microsoft.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
