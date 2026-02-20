@@ -327,22 +327,24 @@ Password appears in DNS query.
 
 ### 7.1 Detect Database Version
 
+Assume We Have a Two Column !!
+
 MySQL / MSSQL:
 
 ```
-SELECT @@version
+' UNION SELECT @@version, NULL--
 ```
 
 PostgreSQL:
 
 ```
-SELECT version()
+' UNION SELECT version(), NULL--
 ```
 
 Oracle:
 
 ```
-SELECT * FROM v$version
+' UNION SELECT banner, NULL FROM v$version--     
 ```
 
 ***
