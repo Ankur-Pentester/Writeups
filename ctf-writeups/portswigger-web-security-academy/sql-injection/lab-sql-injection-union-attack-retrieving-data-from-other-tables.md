@@ -8,3 +8,42 @@ To solve the lab, perform a SQL injection UNION attack that retrieves all userna
 
 ***
 
+hack
+
+<figure><img src="../../../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
+
+hack
+
+<figure><img src="../../../.gitbook/assets/image (543).png" alt=""><figcaption></figcaption></figure>
+
+hack
+
+<figure><img src="../../../.gitbook/assets/image (544).png" alt=""><figcaption></figcaption></figure>
+
+hack
+
+<figure><img src="../../../.gitbook/assets/image (545).png" alt=""><figcaption></figcaption></figure>
+
+hack
+
+<figure><img src="../../../.gitbook/assets/image (546).png" alt=""><figcaption></figcaption></figure>
+
+hack
+
+<figure><img src="../../../.gitbook/assets/image (547).png" alt=""><figcaption></figcaption></figure>
+
+hacker
+
+<figure><img src="../../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
+
+hacker
+
+<figure><img src="../../../.gitbook/assets/image (549).png" alt=""><figcaption></figcaption></figure>
+
+hack
+
+<figure><img src="../../../.gitbook/assets/image (550).png" alt=""><figcaption></figcaption></figure>
+
+hack
+
+<figure><img src="../../../.gitbook/assets/image (551).png" alt=""><figcaption></figcaption></figure>
