@@ -6,22 +6,34 @@ To solve the lab, determine the number of columns returned by the query by perfo
 
 ***
 
-hack
+Let's Start !!
+
+First We Visit The Website !!
 
 <figure><img src="../../../.gitbook/assets/image (529).png" alt=""><figcaption></figcaption></figure>
 
-hack
+We Try To Inject Single Quote `'` To Break The Backend Query !!
 
 <figure><img src="../../../.gitbook/assets/image (530).png" alt=""><figcaption></figcaption></figure>
 
-hack
+When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
 
 <figure><img src="../../../.gitbook/assets/image (531).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Modify the `category` parameter to add an additional column containing a null value:
+
+If They Give Error It's Mean There Is No Two Columns !!
+
+```
+' UNION SELECT NULL,NULL--
+```
 
 <figure><img src="../../../.gitbook/assets/image (532).png" alt=""><figcaption></figcaption></figure>
 
-Hack
+Now We Use This Query And Now  It's Confirm They Have Only Three  Columns !!
+
+```
+' UNION SELECT NULL,NULL,NULL--
+```
 
 <figure><img src="../../../.gitbook/assets/image (533).png" alt=""><figcaption></figcaption></figure>
