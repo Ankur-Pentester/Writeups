@@ -10,7 +10,7 @@ Let's Start !!
 
 First We Visit The Website !!
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 We Try To Inject Single Quote `'` To Break The Backend Query !!
 
@@ -26,7 +26,7 @@ When We Inject The Single Quote `'` Actually The Create Error In The SQL Query !
 SELECT name,description FROM products WHERE category = 'Gifts''
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 MySQL Comment Types !!
 
@@ -50,7 +50,7 @@ When We Inject `'#` They Fix The Query and Give No Error ,In SQL `--` Refer To C
 SELECT name,description FROM products WHERE category = 'Gifts'#'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Finding Number of Columns**
 
@@ -64,7 +64,7 @@ SELECT name,description FROM products WHERE category = 'Gifts'#'
 
 If `ORDER BY 3` fails, query has 2 columns.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 That `ORDER BY 3` fails, query has 2 columns.
 
@@ -74,7 +74,7 @@ it's Mean We assume Right Backend Query They have only Two Columns First is `nam
 SELECT name,description FROM products WHERE category = 'Gifts'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let's We Use In Our Two Column Table !!
 
@@ -92,7 +92,7 @@ SELECT 'a','b'
 
 Then See If Our First and Second Both Column is String They Return No Error !!
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the following payload to display the database version:
 
@@ -100,8 +100,8 @@ Use the following payload to display the database version:
 'UNION SELECT @@version,NULL#
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 They Return MySQL Version !!
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
