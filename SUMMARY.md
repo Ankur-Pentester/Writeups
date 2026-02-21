@@ -90,6 +90,7 @@
       * [Lab: SQL injection attack, querying the database type and version on MySQL and Microsoft](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-attack-querying-the-database-type-and-version-on-mysql-and-microsoft.md)
       * [Lab: SQL injection attack, listing the database contents on non-Oracle databases](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-attack-listing-the-database-contents-on-non-oracle-databases.md)
       * [Lab: SQL injection attack, listing the database contents on Oracle](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-attack-listing-the-database-contents-on-oracle.md)
+      * [Lab: SQL injection UNION attack, determining the number of columns returned by the query](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
