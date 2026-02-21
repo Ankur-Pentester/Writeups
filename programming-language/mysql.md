@@ -112,7 +112,7 @@ Think of it like:
 
 ***
 
-Step 1: Create a Database
+### Step 1: Create a Database
 
 ```sql
 CREATE DATABASE startersql;
@@ -129,6 +129,36 @@ USE startersql;
 
 
 
-Step 2: Create a Table
+### Step 2: Create a Table
 
-Now we’ll create a simple `users`
+Now we’ll create a simple `users` table:
+
+```sql
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    gender ENUM('Male', 'Female', 'Other'),
+    date_of_birth DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+This table will store basic user info.
+
+
+
+### Step 3: Drop the Database
+
+You can delete the entire database (and all its tables) using:
+
+```sql
+DROP DATABASE startersql;
+```
+
+<mark style="color:$danger;">Be careful — this will delete everything in that database.</mark>
+
+***
+
+## Data Types Explained
+
