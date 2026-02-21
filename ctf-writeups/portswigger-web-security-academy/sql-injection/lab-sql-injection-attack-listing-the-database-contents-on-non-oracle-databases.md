@@ -79,7 +79,7 @@ Let's We Use In Our Two Column Table !!
 Our Backend Code Look's Like This After Injecting This Query !!
 
 ```
-SELECT name,description FROM products WHERE category = 'Gifts'
+SELECT name,description FROM products WHERE category = 'Pets'
 UNION
 SELECT 'a','b'
 ```
