@@ -1,7 +1,3 @@
----
-description: Only For Zonia !!
----
-
 # MySQL
 
 ## Installing MySQL
