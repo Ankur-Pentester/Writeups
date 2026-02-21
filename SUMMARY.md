@@ -92,6 +92,7 @@
       * [Lab: SQL injection attack, listing the database contents on Oracle](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-attack-listing-the-database-contents-on-oracle.md)
       * [Lab: SQL injection UNION attack, determining the number of columns returned by the query](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-union-attack-determining-the-number-of-columns-returned-by-the-query.md)
       * [Lab: SQL injection UNION attack, finding a column containing text](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-union-attack-finding-a-column-containing-text.md)
+      * [Lab: SQL injection UNION attack, retrieving data from other tables](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-union-attack-retrieving-data-from-other-tables.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
