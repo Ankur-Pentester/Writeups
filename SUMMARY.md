@@ -97,6 +97,7 @@
       * [Lab: Blind SQL injection with conditional responses](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-blind-sql-injection-with-conditional-responses.md)
     * [HTTP request smuggling](ctf-writeups/portswigger-web-security-academy/http-request-smuggling/README.md)
       * [What is HTTP request smuggling ?](ctf-writeups/portswigger-web-security-academy/http-request-smuggling/what-is-http-request-smuggling.md)
+      * [Lab: HTTP request smuggling, confirming a CL.TE vulnerability via differential responses](ctf-writeups/portswigger-web-security-academy/http-request-smuggling/lab-http-request-smuggling-confirming-a-cl.te-vulnerability-via-differential-responses.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
