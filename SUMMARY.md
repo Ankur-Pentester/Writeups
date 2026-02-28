@@ -95,6 +95,7 @@
       * [Lab: SQL injection UNION attack, retrieving data from other tables](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-union-attack-retrieving-data-from-other-tables.md)
       * [Lab: SQL injection UNION attack, retrieving multiple values in a single column](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-sql-injection-union-attack-retrieving-multiple-values-in-a-single-column.md)
       * [Lab: Blind SQL injection with conditional responses](ctf-writeups/portswigger-web-security-academy/sql-injection/lab-blind-sql-injection-with-conditional-responses.md)
+    * [HTTP request smuggling](ctf-writeups/portswigger-web-security-academy/http-request-smuggling.md)
   * [CloudSEK CTFs (2025)](ctf-writeups/cloudsek-ctfs-2025/README.md)
     * [Nitro ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/nitro-writeup.md)
     * [Bad Feedback ( Writeup )](ctf-writeups/cloudsek-ctfs-2025/bad-feedback-writeup.md)
