@@ -275,3 +275,51 @@ Binary Ninja is a commercial reverse engineering platform known for its user-fri
 
 <figure><img src="../.gitbook/assets/image (579).png" alt=""><figcaption></figcaption></figure>
 
+> Note: It is mainly used in analyze firmware binaries to identify vulnerabilities in IoT devices.
+
+#### 2. **OllyDbg**
+
+OllyDbg is a popular 32-bit debugger for Windows applications. It is known for its simplicity, [plugin](https://www.geeksforgeeks.org/techtips/what-are-plugins/) ecosystem, and ability to debug binary executables without requiring source code.
+
+**How to Use**:
+
+* Load the executable into OllyDbg.
+
+```
+ollydbg <executable_file>
+```
+
+* Use its graphical interface to analyze assembly code, set breakpoints, and trace program execution.
+* Leverage plugins for extended capabilities such as unpacking or malware analysis.
+
+<figure><img src="../.gitbook/assets/image (580).png" alt=""><figcaption></figcaption></figure>
+
+> Note: Debug Windows executables to locate vulnerabilities or understand malware behavior.
+
+### **Conclusion**
+
+Reverse engineering in Kali Linux empowers cybersecurity professionals to analyze binaries, uncover vulnerabilities, and understand malicious behavior. Tools like Radare2, GDB, and Apktool provide a strong foundation for tasks ranging from malware analysis to Android app reverse engineering. By mastering both static and dynamic analysis techniques, you can elevate your skills and stay ahead in the ever-evolving field of cybersecurity.
+
+**What are the ethical considerations of reverse engineering?**
+
+> Always ensure you have proper authorization before reverse engineering software to avoid legal repercussions.
+
+**How can I improve my reverse engineering skills?**
+
+> Practice using tools like Ghidra and Radare2 on open-source projects and participate in Capture the Flag (CTF) challenges.
+
+**What is the difference between static and dynamic analysis?**
+
+> Static analysis involves examining code without executing it, while dynamic analysis requires running the program to observe its behavior.
+
+**Which tools are best for beginners in reverse engineering?**
+
+> Tools like Apktool, GDB, and jd-gui are great starting points for Android and Java reverse engineering.
+
+**How is reverse engineering used in malware analysis?**
+
+> It helps uncover the functionality, behavior, and intent of malicious code to develop mitigation strategies.
+
+**What is the role of Kali Linux in reverse engineering?**
+
+> Kali Linux provides pre-installed tools and a secure environment tailored for reverse engineering and penetration testing.
