@@ -33,7 +33,7 @@ picoCTF{password}
 
 Only the text inside the braces is used for verification.
 
-#### Step 3 – Locate the Password Check
+### Step 3 – Locate the Password Check
 
 Inside the `checkPassword()` function, the password is directly stored in the source code.
 
@@ -51,7 +51,7 @@ w4rm1ng_Up_w1tH_jAv4_0009yrGMeEp
 
 ***
 
-#### Step 4 – Construct the Flag
+### Step 4 – Construct the Flag
 
 Since the program expects the `picoCTF{}` format, we wrap the password inside it.
 
@@ -61,7 +61,7 @@ picoCTF{w4rm1ng_Up_w1tH_jAv4_0009yrGMeEp}
 
 ***
 
-#### Step 5 – Verification
+### Step 5 – Verification
 
 Run the program and enter the flag:
 
