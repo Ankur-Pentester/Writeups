@@ -175,6 +175,7 @@
   * [GeoServer: CVE-2025-58360](cve/geoserver-cve-2025-58360.md)
 * [Reverse Engineering](reverse-engineering/README.md)
   * [What is Reverse Engineering ?](reverse-engineering/what-is-reverse-engineering.md)
+  * [Reverse Engineering (CTF Writeups)](reverse-engineering/reverse-engineering-ctf-writeups.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)
