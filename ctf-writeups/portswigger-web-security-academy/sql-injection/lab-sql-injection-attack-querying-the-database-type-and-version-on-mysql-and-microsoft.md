@@ -26,7 +26,7 @@ When We Inject The Single Quote `'` Actually The Create Error In The SQL Query !
 SELECT name,description FROM products WHERE category = 'Gifts''
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 MySQL Comment Types !!
 

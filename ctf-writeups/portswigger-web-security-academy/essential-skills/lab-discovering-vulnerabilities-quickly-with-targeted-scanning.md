@@ -13,7 +13,7 @@ Let's Start !!
 
 Let's Check The Product an Capture The Request In Burp !!
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Right Click On Request and Click On Active Scan !!
 
