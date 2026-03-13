@@ -1,6 +1,6 @@
 # Flag Hunters
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -180,7 +180,7 @@ Since we know that the verse containing our flag starts at the very beginning, w
 
 Instead of just using `RETURN 0`, we will use `some_string;RETURN 0`.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 picoCTF{70637h3r_f0r3v3r_befbccb7}
