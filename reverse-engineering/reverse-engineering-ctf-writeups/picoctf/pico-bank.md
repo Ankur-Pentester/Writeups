@@ -15,3 +15,7 @@ Test
 Test
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Test
+
+<figure><img src="../../../.gitbook/assets/image (591).png" alt=""><figcaption></figcaption></figure>
