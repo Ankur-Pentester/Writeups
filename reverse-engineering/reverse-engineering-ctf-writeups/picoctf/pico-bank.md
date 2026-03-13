@@ -24,6 +24,10 @@ We Got The `pico-bank` Folder after Decode The `.apk` File .
 
 Let's Use `jadx-gui` Tool For To analyze the `pico-bank.apk`  File Source Code .&#x20;
 
+```
+jadx-gui ~/ctf/pico-bank.apk
+```
+
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 `OTP.java` File We Got interesting Endpoint  is `/verify-otp` .
