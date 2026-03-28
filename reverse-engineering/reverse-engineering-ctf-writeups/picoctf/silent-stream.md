@@ -4,7 +4,7 @@
 
 ***
 
-Encrypt Python Script <br>
+Given Encrypt Python Script <br>
 
 ```
 import socket
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     simulate_flag_transfer("flag.txt")
 ```
 
-Test
+We Have a `.pcap`  packets file let's grep the all raw  data in `hex.txt` file using tshark and Decrypt The all data using below python script !
 
 ```
 tshark -r packets.pcap -T fields -e data | tr -d '\n' > hex.txt
@@ -39,9 +39,7 @@ tshark -r packets.pcap -T fields -e data | tr -d '\n' > hex.txt
 
 <figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
 
-Test
-
-Test
+We Use `Decrypt.py` python Script To decrypt the encrypt raw data !!
 
 ```
 # Use The tshark Raw Data File 
@@ -58,15 +56,13 @@ with open("flag.bin", "wb") as f:
 print("Done!")
 ```
 
-Test
+Then We Use `File` Command To Check The File Details !!
 
-Test
+Below The Image flag.bin file is a `jpeg` image data file .
 
 <figure><img src="../../../.gitbook/assets/image (597).png" alt=""><figcaption></figcaption></figure>
 
-Test
-
-Test
+Then We Use Below Command to open the image !!
 
 ```
 xdg-open flag.bin
