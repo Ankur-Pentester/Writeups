@@ -181,6 +181,7 @@
       * [Transformation](reverse-engineering/reverse-engineering-ctf-writeups/picoctf/transformation.md)
       * [vault-door-training](reverse-engineering/reverse-engineering-ctf-writeups/picoctf/vault-door-training.md)
       * [Pico Bank](reverse-engineering/reverse-engineering-ctf-writeups/picoctf/pico-bank.md)
+      * [Silent Stream](reverse-engineering/reverse-engineering-ctf-writeups/picoctf/silent-stream.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)
