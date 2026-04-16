@@ -22,6 +22,7 @@
         * [WebDecode](ctf-writeups/picoctf/web-exploitation/easy/webdecode.md)
         * [IntroToBurp](ctf-writeups/picoctf/web-exploitation/easy/introtoburp.md)
       * [Medium](ctf-writeups/picoctf/web-exploitation/medium/README.md)
+        * [No FA](ctf-writeups/picoctf/web-exploitation/medium/no-fa.md)
         * [Crack the Gate 2](ctf-writeups/picoctf/web-exploitation/medium/crack-the-gate-2.md)
         * [SSTI2](ctf-writeups/picoctf/web-exploitation/medium/ssti2.md)
         * [byp4ss3d](ctf-writeups/picoctf/web-exploitation/medium/byp4ss3d.md)
