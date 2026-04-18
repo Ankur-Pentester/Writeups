@@ -4,46 +4,48 @@ This lab is vulnerable to web cache poisoning because it handles input from an u
 
 ***
 
-Hacker
+Let's Start The Lab&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+We Capture The Home Directory First !!
 
 <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+We Use `Param Miner` Extensions From `BApp  Store` in `Burpsuite`  For Identify Auto Request Headers !!&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (601).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+We Use The Extension !!
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-Hacker<br>
+Go In Target and Select The Host and Check The Extension Result and We Got a `X-Forwarded-Host` This Header !!
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+We Create The malicious Request using The Exploit Server !!
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+Add a cache-buster query parameter, such as `?cb=nexxelsecurity`&#x20;
+
+and we also add The attacker domain where we serve the malicious Request !!
 
 <figure><img src="../../../.gitbook/assets/image (602).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+Then We Go on the our cache-buster query parameter and boom our payload is work it's mean there is a cache poisoning vulnerability !!
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+Then Let's Solve The  Lab sending The Request in Home Directory !!
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+We Same The Send Just Change The Directory TO Home !!
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Hacker
+Boom We Solve The Lab !!
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
