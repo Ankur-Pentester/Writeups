@@ -39,6 +39,8 @@
       * [Medium](ctf-writeups/picoctf/cryptography/medium.md)
       * [Hard](ctf-writeups/picoctf/cryptography/hard.md)
   * [PortSwigger Web Security Academy](ctf-writeups/portswigger-web-security-academy/README.md)
+    * [Web cache poisoning](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/README.md)
+      * [What is Web cache poisoning ?](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/what-is-web-cache-poisoning.md)
     * [Web cache deception](ctf-writeups/portswigger-web-security-academy/web-cache-deception/README.md)
       * [What is Web Cache Deception](ctf-writeups/portswigger-web-security-academy/web-cache-deception/what-is-web-cache-deception.md)
       * [Lab: Exploiting path mapping for web cache deception](ctf-writeups/portswigger-web-security-academy/web-cache-deception/lab-exploiting-path-mapping-for-web-cache-deception.md)
