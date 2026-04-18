@@ -60,7 +60,7 @@ Now change it to:
 
 Verify that the condition is true, confirming that there is a user called `administrator`.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 he next step is to determine how many characters are in the password of the `administrator` user. To do this, change the value to:
 
@@ -68,7 +68,7 @@ he next step is to determine how many characters are in the password of the `adm
 
 This condition should be true, confirming that the password is greater than 1 character in length.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In 19 We Don't Get Any Error !!
 

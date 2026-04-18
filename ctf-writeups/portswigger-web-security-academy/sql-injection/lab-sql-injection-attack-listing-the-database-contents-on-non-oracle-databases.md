@@ -28,7 +28,7 @@ When We Inject The Single Quote `'` Actually The Create Error In The SQL Query !
 SELECT name,description FROM products WHERE category = 'Pets''
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We Try To Inject `'--` To Check The Backend Query !!
 
@@ -44,7 +44,7 @@ When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To 
 SELECT name,description FROM products WHERE category = 'Pets'--'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Finding Number of Columns**
 
