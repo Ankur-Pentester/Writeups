@@ -258,3 +258,76 @@ Root cause:
 #### Key Idea:
 
 **“If user input affects the response but not the cache key → vulnerability”**
+
+***
+
+### Testing Methodology (Bug Bounty Approach)
+
+1. Check if caching exists:
+   * `X-Cache: HIT/MISS`
+2. Identify unkeyed inputs:
+   * Use tools or manual testing
+3. Inject payload:
+   * Headers, cookies, parameters
+4. Check reflection:
+   * Does the response change?
+5. Force caching:
+   * Repeat request and observe cache behavior
+6. Verify:
+   * Send clean request
+   * Check if payload is still present
+
+***
+
+### Useful Tool
+
+* Param Miner\
+  → Automatically finds hidden/unkeyed inputs
+
+***
+
+### Prevention
+
+#### 1. Disable caching (if possible)
+
+#### 2. Cache only static content
+
+* CSS, JS, images ✅
+* Dynamic pages ❌
+
+***
+
+#### 3. Validate all inputs
+
+* Never trust headers or cookies blindly
+
+***
+
+#### 4. Include important inputs in cache key
+
+***
+
+#### 5. Disable unnecessary headers
+
+***
+
+#### 6. Avoid fat GET requests
+
+***
+
+#### 7. Secure third-party integrations (CDNs)
+
+***
+
+### Final Summary
+
+* Web cache improves performance
+* But misconfiguration leads to **mass exploitation**
+* Attacker poisons cache once → affects many users
+* Most common vector: **unkeyed inputs (headers)**
+
+***
+
+### One-Line Understanding
+
+**Web cache poisoning = injecting malicious data into cached responses so that it is served to all users.**
