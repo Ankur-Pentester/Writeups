@@ -8,7 +8,7 @@ description: >-
 
 First We Login Using Given Credential and send the request in repeater tab   !!
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then We Install The The Extenstion Jwt editor from Bapp Store and Then we click on json web token !!
 
@@ -32,4 +32,4 @@ Then We Copy The Temper JWT Token and Paste In The Storage Tab and Reload The Pa
 
 After Delete The Carlos User We automatic Complete The Lab !!
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
