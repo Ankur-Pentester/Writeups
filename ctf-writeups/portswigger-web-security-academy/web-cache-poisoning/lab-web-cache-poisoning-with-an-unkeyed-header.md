@@ -6,12 +6,18 @@ This lab is vulnerable to web cache poisoning because it handles input from an u
 
 Hacker
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-Hacker
-
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Hacker
 
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
 <figure><img src="../../../.gitbook/assets/image (601).png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Hacker<br>

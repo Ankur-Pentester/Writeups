@@ -12,7 +12,7 @@ First We Login Using Given Credential and send the request in repeater tab   !!
 
 Then We Install The The Extenstion Jwt editor from Bapp Store and Then we click on json web token !!
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then We Access The `/admin` endpoint but we can't access that endpoin only administrator user can access !!
 

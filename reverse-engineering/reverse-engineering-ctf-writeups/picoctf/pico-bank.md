@@ -85,7 +85,7 @@ s3cur3d_m0b1l3_l0g1n_1ff8ddb7} <--  First Part of The Flag
 
 In `jadx-gui`  Source Code Then analyze The `MainActivity.java` File and We Got The Transaction List !!
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Inside the transaction list, we notice something suspicious:
 
