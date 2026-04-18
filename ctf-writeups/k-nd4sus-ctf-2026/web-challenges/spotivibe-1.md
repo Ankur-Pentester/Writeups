@@ -142,3 +142,19 @@ First Create The Account !!
 
 <figure><img src="../../../.gitbook/assets/image (608).png" alt=""><figcaption></figcaption></figure>
 
+Then We Add The Song Using Our Final Payload !!
+
+<figure><img src="../../../.gitbook/assets/image (610).png" alt=""><figcaption></figcaption></figure>
+
+Report The Admin !!
+
+<figure><img src="../../../.gitbook/assets/image (611).png" alt=""><figcaption></figcaption></figure>
+
+Check The WebHook Website and We Got The Flag !!
+
+<figure><img src="../../../.gitbook/assets/image (609).png" alt=""><figcaption></figcaption></figure>
+
+```
+Flag : KSUS{4b4eba6646f7903fd437d6fbf1b5783d}
+```
+
