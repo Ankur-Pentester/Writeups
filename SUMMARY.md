@@ -173,6 +173,7 @@
   * [K!nd4SUS CTF (2026)](ctf-writeups/k-nd4sus-ctf-2026/README.md)
     * [Web Challenges](ctf-writeups/k-nd4sus-ctf-2026/web-challenges/README.md)
       * [Ez Bounty](ctf-writeups/k-nd4sus-ctf-2026/web-challenges/ez-bounty.md)
+      * [SpotiVibe 1](ctf-writeups/k-nd4sus-ctf-2026/web-challenges/spotivibe-1.md)
 * [CVE](cve/README.md)
   * [React2Shell: CVE-2025-55182](cve/react2shell-cve-2025-55182.md)
   * [n8n: CVE-2025-68613](cve/n8n-cve-2025-68613.md)
