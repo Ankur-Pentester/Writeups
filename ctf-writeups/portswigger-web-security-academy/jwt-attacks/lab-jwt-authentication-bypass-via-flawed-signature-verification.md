@@ -12,7 +12,7 @@ First We Login Using Given Credential and send the request in repeater tab   !!
 
 We Have a Jwt Token Let's Try To Tamer The Session Token !!
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We use Below  Website and Change `The algorithm to None` and `sub to administrato`r !!
 
@@ -22,12 +22,12 @@ We use Below  Website and Change `The algorithm to None` and `sub to administrat
 
 We Change The username to administrator in this endpoint `/my-account?id=administrator` and we also change the username in the jwt token and we send the request and we access the administrator account !!
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then We Copy The Temper JWT Token and Paste In The Storage Tab and Reload The Page and Now We access The administrator account !!
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After Delete The Carlos User We automatic Complete The Lab !!
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

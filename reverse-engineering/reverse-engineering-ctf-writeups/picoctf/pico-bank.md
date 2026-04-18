@@ -28,7 +28,7 @@ Let's Use `jadx-gui` Tool For To analyze the `pico-bank.apk`  File Source Code .
 jadx-gui ~/ctf/pico-bank.apk
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 `OTP.java` File We Got interesting Endpoint  is `/verify-otp` .
 
@@ -67,7 +67,7 @@ We Finally Find The `Strings.xml` File .
 <string name="otp_value">9673</string>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then We Use The Below `Curl` Command and Then We Got The First Part of The Flag !!
 
