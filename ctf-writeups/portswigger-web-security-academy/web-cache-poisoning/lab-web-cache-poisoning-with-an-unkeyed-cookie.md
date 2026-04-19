@@ -4,3 +4,20 @@ This lab is vulnerable to web cache poisoning because cookies aren't included in
 
 ***
 
+Let's Start !!
+
+<figure><img src="../../../.gitbook/assets/image (613).png" alt=""><figcaption></figcaption></figure>
+
+First We Capture The Home Request For Testing !!
+
+<figure><img src="../../../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
+
+Let's Solve The Lab Using XSS !!
+
+Payload : - `fehost=someString"-alert(1)-"`
+
+<figure><img src="../../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
+
+Refresh The Home Page In The Browser !!<br>
+
+<figure><img src="../../../.gitbook/assets/image (617).png" alt=""><figcaption></figcaption></figure>
