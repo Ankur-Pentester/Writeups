@@ -43,6 +43,7 @@
       * [What is Web cache poisoning ?](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/what-is-web-cache-poisoning.md)
       * [Lab: Web cache poisoning with an unkeyed header](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/lab-web-cache-poisoning-with-an-unkeyed-header.md)
       * [Lab: Web cache poisoning with an unkeyed cookie](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/lab-web-cache-poisoning-with-an-unkeyed-cookie.md)
+      * [Lab: Web cache poisoning with multiple headers](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/lab-web-cache-poisoning-with-multiple-headers.md)
     * [Web cache deception](ctf-writeups/portswigger-web-security-academy/web-cache-deception/README.md)
       * [What is Web Cache Deception](ctf-writeups/portswigger-web-security-academy/web-cache-deception/what-is-web-cache-deception.md)
       * [Lab: Exploiting path mapping for web cache deception](ctf-writeups/portswigger-web-security-academy/web-cache-deception/lab-exploiting-path-mapping-for-web-cache-deception.md)
