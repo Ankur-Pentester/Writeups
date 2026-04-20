@@ -4,3 +4,29 @@ This lab contains a web cache poisoning vulnerability that is only exploitable w
 
 ***
 
+Hacker
+
+<figure><img src="../../../.gitbook/assets/image (618).png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
+<figure><img src="../../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
+<figure><img src="../../../.gitbook/assets/gitbook.png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
+<figure><img src="../../../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
+<figure><img src="../../../.gitbook/assets/image (621).png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
+<figure><img src="../../../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
+
+Hacker
+
