@@ -10,7 +10,7 @@ Let's Start The Lab&#x20;
 
 We Capture The Home Directory First !!
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We Use `Param Miner` Extensions From `BApp  Store` in `Burpsuite`  For Identify Auto Request Headers !!&#x20;
 
@@ -22,7 +22,7 @@ We Use The Extension !!
 
 Go In Target and Select The Host and Check The Extension Result and We Got a `X-Forwarded-Host` This Header !!
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 We Create The malicious Request using The Exploit Server !!
 
@@ -36,16 +36,16 @@ and we also add The attacker domain where we serve the malicious Request !!
 
 Then We Go on the our cache-buster query parameter and boom our payload is work it's mean there is a cache poisoning vulnerability !!
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Then Let's Solve The  Lab sending The Request in Home Directory !!
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We Same The Send Just Change The Directory TO Home !!
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Boom We Solve The Lab !!
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
