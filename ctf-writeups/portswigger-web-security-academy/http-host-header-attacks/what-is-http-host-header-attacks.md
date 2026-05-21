@@ -22,10 +22,9 @@ This document explains HTTP Host header attacks in depth, including how they wor
 
 A normal HTTP request looks like this:
 
-
-
 ```
-GET /web-security HTTP/1.1Host: portswigger.net
+GET /web-security HTTP/1.1
+Host: portswigger.net
 ```
 
 The `Host` header tells the server which domain the client wants to access.
@@ -65,7 +64,11 @@ Today:
 Example:
 
 ```
-192.168.1.10 ├── example.com ├── api.example.com ├── shop.example.com └── admin.example.com
+192.168.1.10
+ ├── example.com
+ ├── api.example.com
+ ├── shop.example.com
+ └── admin.example.com
 ```
 
 All websites may share the same IP address.
@@ -83,7 +86,8 @@ The server hosts multiple domains on a single IP address and routes requests bas
 Example:
 
 ```
-GET / HTTP/1.1Host: shop.example.com
+GET / HTTP/1.1
+Host: shop.example.com
 ```
 
 The server loads the shop application.
@@ -95,7 +99,15 @@ The server loads the shop application.
 Modern infrastructure often contains intermediary systems:
 
 ```
-User ↓CDN ↓Load Balancer ↓Reverse Proxy ↓Backend Servers
+User
+ ↓
+CDN
+ ↓
+Load Balancer
+ ↓
+Reverse Proxy
+ ↓
+Backend Servers
 ```
 
 These components use the `Host` header for routing requests internally.
@@ -113,7 +125,8 @@ Attackers manipulate the `Host` header to influence server-side behavior.
 Example:
 
 ```
-GET / HTTP/1.1Host: evil.com
+GET / HTTP/1.1
+Host: evil.com
 ```
 
 If the application trusts this value, it may:
@@ -143,7 +156,8 @@ However, attackers can easily modify it using tools like:
 Example:
 
 ```
-GET / HTTP/1.1Host: attacker.com
+GET / HTTP/1.1
+Host: attacker.com
 ```
 
 ***
@@ -203,7 +217,8 @@ Attackers can inject malicious content into shared caches.
 Example:
 
 ```
-GET / HTTP/1.1Host: attacker.com
+GET / HTTP/1.1
+Host: attacker.com
 ```
 
 If cached, other users may receive poisoned responses.
@@ -221,7 +236,8 @@ If improperly configured, attackers can force requests to internal systems.
 ### Example
 
 ```
-GET / HTTP/1.1Host: internal-admin.local
+GET / HTTP/1.1
+Host: internal-admin.local
 ```
 
 The proxy forwards the request internally.
@@ -316,7 +332,9 @@ This creates discrepancies between:
 Example:
 
 ```
-GET / HTTP/1.1Host: vulnerable-website.comHost: evil.com
+GET / HTTP/1.1
+Host: vulnerable-website.com
+Host: evil.com
 ```
 
 Front-end may use:
@@ -344,7 +362,8 @@ This can lead to:
 Example:
 
 ```
-GET https://vulnerable-website.com/ HTTP/1.1Host: evil.com
+GET https://vulnerable-website.com/ HTTP/1.1
+Host: evil.com
 ```
 
 Some systems trust the request line.
@@ -360,7 +379,9 @@ This discrepancy can be exploited.
 Example:
 
 ```
-GET / HTTP/1.1 Host: evil.comHost: vulnerable-website.com
+GET / HTTP/1.1 
+ Host: evil.com
+Host: vulnerable-website.com
 ```
 
 Some servers interpret the indented header differently.
@@ -382,7 +403,11 @@ X-Forwarded-Host: attacker.com
 Common dangerous headers include:
 
 ```
-X-Forwarded-HostX-HostX-Forwarded-ServerX-HTTP-Host-OverrideForwarded
+X-Forwarded-Host
+X-Host
+X-Forwarded-Server
+X-HTTP-Host-Override
+Forwarded
 ```
 
 ***
@@ -390,7 +415,9 @@ X-Forwarded-HostX-HostX-Forwarded-ServerX-HTTP-Host-OverrideForwarded
 ## Example Attack
 
 ```
-GET / HTTP/1.1Host: vulnerable-website.comX-Forwarded-Host: attacker.com
+GET / HTTP/1.1
+Host: vulnerable-website.com
+X-Forwarded-Host: attacker.com
 ```
 
 The frontend sees a valid host while the backend processes the malicious one.
@@ -414,7 +441,9 @@ Some vulnerable servers validate only the first request on a connection.
 ### First Request
 
 ```
-GET / HTTP/1.1Host: vulnerable-website.comConnection: keep-alive
+GET / HTTP/1.1
+Host: vulnerable-website.com
+Connection: keep-alive
 ```
 
 Validation succeeds.
@@ -424,7 +453,8 @@ Validation succeeds.
 ### Second Request (same connection)
 
 ```
-GET /admin HTTP/1.1Host: evil.com
+GET /admin HTTP/1.1
+Host: evil.com
 ```
 
 The server may skip validation because the connection is already trusted.
@@ -532,7 +562,9 @@ If Collaborator receives traffic, the infrastructure may be vulnerable.
 ## Common Private IP Ranges
 
 ```
-10.0.0.0/8172.16.0.0/12192.168.0.0/16
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
 ```
 
 Attackers often brute-force internal IP ranges.
@@ -568,7 +600,8 @@ Host: example.comHost: attacker.com
 ### 4. Test Absolute URLs
 
 ```
-GET https://example.com/ HTTP/1.1Host: attacker.com
+GET https://example.com/ HTTP/1.1
+Host: attacker.com
 ```
 
 ***
@@ -613,7 +646,10 @@ Whitelist allowed domains.
 Example (Django):
 
 ```
-ALLOWED_HOSTS = [    "example.com",    "api.example.com"]
+ALLOWED_HOSTS = [
+    "example.com",
+    "api.example.com"
+]
 ```
 
 ***
@@ -621,7 +657,8 @@ ALLOWED_HOSTS = [    "example.com",    "api.example.com"]
 ## Reject Unknown Hosts
 
 ```
-if host not in allowed_hosts:    return 400
+if host not in allowed_hosts:
+    return 400
 ```
 
 ***
