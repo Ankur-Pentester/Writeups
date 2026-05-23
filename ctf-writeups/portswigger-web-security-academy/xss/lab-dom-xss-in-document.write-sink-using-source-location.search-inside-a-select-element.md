@@ -6,4 +6,28 @@ To solve this lab, perform a cross-site scripting attack that breaks out of the 
 
 ***
 
-TEST
+According To The Question We have a Stock Checker Function !!
+
+<figure><img src="../../../.gitbook/assets/image (798).png" alt=""><figcaption></figcaption></figure>
+
+We Find The Vulnerable Stock Function and `StoreId` Parameter !!
+
+<figure><img src="../../../.gitbook/assets/image (799).png" alt=""><figcaption></figcaption></figure>
+
+Then I Test The `StoreId` parameter and Its Working Well , It's Time To make The Xss payload !!
+
+<figure><img src="../../../.gitbook/assets/image (800).png" alt=""><figcaption></figcaption></figure>
+
+## Browser What DO?
+
+* option close
+* select close
+* image create
+* image fail
+* onerror execute 💥
+
+```
+</option></select><img src=x onerror=alert(1)>
+```
+
+<figure><img src="../../../.gitbook/assets/image (801).png" alt=""><figcaption></figcaption></figure>
