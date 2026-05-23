@@ -9,7 +9,7 @@
 * [CTF Writeups](ctf-writeups/README.md)
   * [PortSwigger Web Security Academy](ctf-writeups/portswigger-web-security-academy/README.md)
     * [XSS](ctf-writeups/portswigger-web-security-academy/xss/README.md)
-      * [Page 1](ctf-writeups/portswigger-web-security-academy/xss/page-1.md)
+      * [Lab: Reflected XSS into HTML context with nothing encoded](ctf-writeups/portswigger-web-security-academy/xss/lab-reflected-xss-into-html-context-with-nothing-encoded.md)
     * [OAuth authentication](ctf-writeups/portswigger-web-security-academy/oauth-authentication/README.md)
       * [What is OAuth authentication ?](ctf-writeups/portswigger-web-security-academy/oauth-authentication/what-is-oauth-authentication.md)
     * [HTTP Host header attacks](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/README.md)
