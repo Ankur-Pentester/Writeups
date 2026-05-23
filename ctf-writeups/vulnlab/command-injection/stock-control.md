@@ -92,14 +92,14 @@ This vulnerability poses an existential threat to the application and organizati
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
 
 * **Screenshot 1: Normal Functionality**
   * URL parameter: ?product\_id=1
   * Legitimate output: "Stock: 13 Pieces"
   * Demonstrates intended application behavior
 
-<figure><img src="../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (319).png" alt=""><figcaption></figcaption></figure>
 
 * **Screenshot 2: Successful Command Injection**
   * Modified URL: ?product\_id=id

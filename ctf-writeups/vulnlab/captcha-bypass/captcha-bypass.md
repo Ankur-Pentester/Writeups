@@ -71,14 +71,14 @@ While the vulnerability does not directly lead to account takeover, it completel
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Comment submission form with CAPTCHA input
 
-<figure><img src="../../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Successful submission message despite weak CAPTCHA enforcement
 
-<figure><img src="../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (368).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Comments table showing multiple entries added via CAPTCHA bypass

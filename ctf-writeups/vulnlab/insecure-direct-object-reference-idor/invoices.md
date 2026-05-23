@@ -133,18 +133,18 @@ IDOR vulnerabilities expose sensitive user data and represent fundamental access
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
 
 Screenshot 1: Invoices page displays "You have a new invoice!" message with "View" button indicating invoice viewing functionality at [http://localhost:1337/lab/idor/invoices/](http://localhost:1337/lab/idor/invoices/).
 
-<figure><img src="../../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure>
 
 Screenshot 2: Clicking View with URL parameter ?invoice\_id=1 displays invoice PDF for "Sean Johnson" with Invoice Number 00001, showing legitimate user's financial document.
 
-<figure><img src="../../../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure>
 
 Screenshot 3: Modifying URL to ?invoice\_id=2 displays invoice PDF for "Elias Fetter" demonstrating unauthorized access to another user's invoice through IDOR.
 
-<figure><img src="../../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (365).png" alt=""><figcaption></figcaption></figure>
 
 Screenshot 4: Further enumeration with ?invoice\_id=3 displays invoice PDF for "Susan Fore" confirming ability to access multiple users' sensitive financial documents by simply incrementing ID parameter without authorization checks.

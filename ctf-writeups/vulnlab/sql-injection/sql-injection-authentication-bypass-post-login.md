@@ -111,12 +111,12 @@ This vulnerability allows unauthenticated attackers to gain administrator-level 
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (429).png" alt=""><figcaption></figcaption></figure>
 
 * Login page showing SQL injection payload `(' or 1=1#)`
 * Successful login without valid credentials
 
-<figure><img src="../../../.gitbook/assets/image (271).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (430).png" alt=""><figcaption></figcaption></figure>
 
 * Admin dashboard access confirmation
 * URL redirection to `admin.php`

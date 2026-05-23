@@ -159,23 +159,23 @@ The vulnerability allows attackers to forge valid authentication tokens and impe
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (402).png" alt=""><figcaption></figcaption></figure>
 
 * Login page with normal user credentials
 
-<figure><img src="../../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure>
 
 * JWT token extracted from browser cookies
 
-<figure><img src="../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (404).png" alt=""><figcaption></figcaption></figure>
 
 * JWT Auditor brute-force showing secret key `dragon`
 
-<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure>
 
 * Modified JWT payload with admin role
 * Generated forged JWT
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (406).png" alt=""><figcaption></figcaption></figure>
 
 * Successful privilege escalation after token replacement

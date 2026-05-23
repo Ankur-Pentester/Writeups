@@ -130,10 +130,10 @@ if (realpath($file) && strpos(realpath($file), $base_dir) === 0) {
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Normal functionality shows URL parameter ?country=france.php displaying "The capital of France is Paris." demonstrating intended country file inclusion.
 
-<figure><img src="../../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (309).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: LFI exploitation with modified parameter ?country=../admin.php displays "Welcome to the Admin page.." confirming successful path traversal and unauthorized access to restricted admin file.

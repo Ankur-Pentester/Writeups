@@ -78,22 +78,22 @@ This vulnerability exists in the address and order management system where the a
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (476).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Address Entry page shows user "Jesus S. Green" with registered address "Hey I am hacker" and "Update Address" and "Order" buttons.
 
-<figure><img src="../../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (477).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Success message shows "Order placed successfully!" with legitimate order details for "Jesus S. Green".
 
-<figure><img src="../../../.gitbook/assets/image (319).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (478).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Burp Suite intercepts POST request showing parameters `address=&addressID=1&order=` demonstrating client control over address selection.
 
-<figure><img src="../../../.gitbook/assets/image (320).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (479).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 4: Modified request `address=&addressID=2&order=` displays unauthorized address "38740 McDermott Centers Suite 216 Keelingfurt, CO 79459-7315" for "Kimberly J. Price".
 
-<figure><img src="../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (480).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 5: Further enumeration address=\&addressID=3\&order= reveals "9287 Kacie View Apt. 466 Roycetown, RI 41148-8999" for "Esperanza A. Donlon" demonstrating full address enumeration capability.

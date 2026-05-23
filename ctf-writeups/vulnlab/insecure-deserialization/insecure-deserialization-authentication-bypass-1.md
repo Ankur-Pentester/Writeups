@@ -140,34 +140,34 @@ This vulnerability allows attackers to fully control authentication and authoriz
 
 #### 8. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
 
 * Login as normal user (test)
 
-<figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (380).png" alt=""><figcaption></figcaption></figure>
 
 * Authentication cookie extracted from browser storage
 
-<figure><img src="../../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (381).png" alt=""><figcaption></figcaption></figure>
 
 * Base64 + URL decoded serialized object
 
-<figure><img src="../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (382).png" alt=""><figcaption></figcaption></figure>
 
 * Hash cracking via CrackStation
 
-<figure><img src="../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure>
 
 * Regenerate the hash of (Administrator)
 
-<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure>
 
 * Modified serialized payload `(isAdmin=1)`
 * Re-encoded cookie value
 
-<figure><img src="../../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (385).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (386).png" alt=""><figcaption></figcaption></figure>
 
 * Final admin access confirmation `(Welcome Admin)`
 

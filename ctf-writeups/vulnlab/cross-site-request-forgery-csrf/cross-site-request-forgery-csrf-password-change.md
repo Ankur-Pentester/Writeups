@@ -75,26 +75,26 @@ This vulnerability enables attackers to fully compromise user accounts by changi
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (450).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Login page with default credentials
 
-<figure><img src="../../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (451).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Authenticated password change interface
 
-<figure><img src="../../../.gitbook/assets/image (293).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (452).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: New password and confirm password fields submission
 
-<figure><img src="../../../.gitbook/assets/image (294).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: Network request showing password change via URL parameters
 
-<figure><img src="../../../.gitbook/assets/image (295).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (454).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 5: Successful password change confirmation message
 
-<figure><img src="../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (455).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 6: Successful login using the newly changed password

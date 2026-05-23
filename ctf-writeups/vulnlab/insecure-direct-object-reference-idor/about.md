@@ -84,38 +84,38 @@ This vulnerability exists in the user profile management system where the applic
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (322).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (481).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: About page displays user profile with "Edit Profile" button showing FoxyProxy extension enabled in browser at [http://localhost:1337/lab/idor/about/](http://localhost:1337/lab/idor/about/).
 
-<figure><img src="../../../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (482).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Burp Suite HTTP History shows GET request to /lab/idor/about/ with Cookie header containing userid=3 parameter, context menu displays "Send to Repeater" option highlighted.
 
-<figure><img src="../../../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (483).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Burp Repeater displays response for userid=3 showing complete profile with job title "Senior Javascript Developer", about section "I am Hacker", email "[cedrickelly12@outlook.com](mailto:cedrickelly12@outlook.com)", phone "208-407-8643", address field, with "Send" button highlighted at top.
 
-<figure><img src="../../../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (484).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 4: Modified Cookie header showing userid=1 in Burp Repeater request, demonstrating parameter manipulation to access different user's profile.
 
-<figure><img src="../../../.gitbook/assets/image (326).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (485).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 5: Browser displays profile edit page for "Cedric Kelly" with complete contact information including email "[cedrickelly12@outlook.com](mailto:cedrickelly12@outlook.com)", phone "208-407-8643", address "Edinburgh", and "Save" button at bottom, showing successful profile access.
 
-<figure><img src="../../../.gitbook/assets/image (327).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (486).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 6: Burp Suite intercepts POST request to /lab/idor/about/saveprofile.php showing profile update parameters in request body with "Send to Repeater" option in context menu.
 
-<figure><img src="../../../.gitbook/assets/image (328).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (487).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 7: Burp Repeater shows POST request body containing profile update parameters with `puserid=3&pjob=Senior+Javascript+Developer&pabout=I+am+Hacker&pemail=cedrickelly12@40outlook.com&pphone=208-407-8643&plocation=Edinburgh,` with response showing HTTP 302 redirect status indicating successful save operation.
 
-<figure><img src="../../../.gitbook/assets/image (329).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (488).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 8: Modified POST request with puserid=1 in request body demonstrating ability to update different user's profile by manipulating puserid parameter, with "Send" button highlighted showing active exploitation.
 
-<figure><img src="../../../.gitbook/assets/image (330).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (489).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 9: Response shows HTTP 302 redirect confirming successful unauthorized profile modification for userid=1, demonstrating complete IDOR exploitation allowing both profile viewing and modification of arbitrary users.

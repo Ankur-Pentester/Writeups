@@ -79,12 +79,12 @@ Although no direct account takeover occurs, the vulnerability allows attackers t
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (301).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption></figcaption></figure>
 
 * Follow button triggering the request
 * Network request showing GET-based follow action
 
-<figure><img src="../../../.gitbook/assets/image (302).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (461).png" alt=""><figcaption></figcaption></figure>
 
 * Crafted URL executing follow automatically
 * Followers list updated without user interaction

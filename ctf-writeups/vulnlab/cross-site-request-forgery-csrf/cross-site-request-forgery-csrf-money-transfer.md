@@ -80,19 +80,19 @@ This vulnerability allows attackers to perform critical financial operations on 
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (297).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (456).png" alt=""><figcaption></figcaption></figure>
 
 * Money transfer form submission
 
-<figure><img src="../../../.gitbook/assets/image (298).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (457).png" alt=""><figcaption></figcaption></figure>
 
 * Account balance change confirmation
 
-<figure><img src="../../../.gitbook/assets/image (299).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>
 
 * Network request showing GET-based transfer
 
-<figure><img src="../../../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
 
 * Successful transfer without CSRF token
 * Replayed malicious URL executing transfer

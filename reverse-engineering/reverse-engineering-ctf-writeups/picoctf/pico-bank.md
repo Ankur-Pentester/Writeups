@@ -1,6 +1,6 @@
 # Pico Bank
 
-<figure><img src="../../../.gitbook/assets/image (588).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -8,7 +8,7 @@ Let's First Visit The Pico Bank Website !!
 
 Download The Pico Bank App !!
 
-<figure><img src="../../../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
 
 We Have a `pico-bank.apk` File.&#x20;
 
@@ -20,7 +20,7 @@ apktool d pico-bank.apk
 
 We Got The `pico-bank` Folder after Decode The `.apk` File .
 
-<figure><img src="../../../.gitbook/assets/image (590).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (749).png" alt=""><figcaption></figcaption></figure>
 
 Let's Use `jadx-gui` Tool For To analyze the `pico-bank.apk`  File Source Code .&#x20;
 
@@ -28,7 +28,7 @@ Let's Use `jadx-gui` Tool For To analyze the `pico-bank.apk`  File Source Code .
 jadx-gui ~/ctf/pico-bank.apk
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 `OTP.java` File We Got interesting Endpoint  is `/verify-otp` .
 
@@ -47,15 +47,15 @@ This shows that:
 * The OTP is **hardcoded**
 * It is stored in `strings.xml`
 
-<figure><img src="../../../.gitbook/assets/image (591).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (750).png" alt=""><figcaption></figcaption></figure>
 
 Then We Visit The Hidden Endpoint `/verify-otp`  They Return `GET` Method Is Not Allowed In This Endpoint .
 
-<figure><img src="../../../.gitbook/assets/image (594).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (753).png" alt=""><figcaption></figcaption></figure>
 
 Then We Use The `Curl` Command and Send The Post Request Then We Got The `JSON` Output We Got Invalid `OTP` Let's analyze The Source Code and Find The Some Valuable Information .
 
-<figure><img src="../../../.gitbook/assets/image (592).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (751).png" alt=""><figcaption></figcaption></figure>
 
 We Open The `apktool` Decompile `apk` File In `android-Studio` To Analyze The File .
 
@@ -67,7 +67,7 @@ We Finally Find The `Strings.xml` File .
 <string name="otp_value">9673</string>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 Then We Use The Below `Curl` Command and Then We Got The First Part of The Flag !!
 
@@ -75,7 +75,7 @@ Then We Use The Below `Curl` Command and Then We Got The First Part of The Flag 
 curl http://amiable-citadel.picoctf.net:61228/verify-otp -X POST -H "Content-Type: application/json" -d '{"otp":"9673"}'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (593).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (752).png" alt=""><figcaption></figcaption></figure>
 
 ### First Part of The Flag !!
 
@@ -85,7 +85,7 @@ s3cur3d_m0b1l3_l0g1n_1ff8ddb7} <--  First Part of The Flag
 
 In `jadx-gui`  Source Code Then analyze The `MainActivity.java` File and We Got The Transaction List !!
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 Inside the transaction list, we notice something suspicious:
 

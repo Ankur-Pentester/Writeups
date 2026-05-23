@@ -110,6 +110,6 @@ _// Secure - avoid shell execution// Use native PHP socket functions or ICMP lib
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Command execution result displaying system information: `uid=33(www-data) gid=33(www-data) groups=33(www-data)`, confirming successful command injection and revealing the web server process runs as www-data user

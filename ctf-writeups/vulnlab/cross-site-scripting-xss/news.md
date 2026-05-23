@@ -79,22 +79,22 @@ _`// Secure`_` ``$url = $_POST['url']; $allowedProtocols = ['http', 'https']; $p
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (342).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (501).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: News submission form with "test" entered in both News Title and News Url fields, showing Submit button
 
-<figure><img src="../../../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (502).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Source code view showing vulnerable line 56 with anchor tag: test without sanitization
 
-<figure><img src="../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (503).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Form filled with "XSS" as News Title and "javascript:alert(document.domain)" as News Url payload
 
-<figure><img src="../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (504).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: News table showing two entries - "test" (entry #1) and "XSS" (entry #2) as clickable links with up/down arrows
 
-<figure><img src="../../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (505).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 5: Alert box displaying "localhost" after clicking the "XSS" link, confirming successful stored XSS exploitation via javascript: protocol in href attribute

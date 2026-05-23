@@ -10,15 +10,15 @@ Let's Start !!
 
 First We Visit The Website !!
 
-<figure><img src="../../../.gitbook/assets/image (529).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (688).png" alt=""><figcaption></figcaption></figure>
 
 We Try To Inject Single Quote `'` To Break The Backend Query !!
 
-<figure><img src="../../../.gitbook/assets/image (530).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (689).png" alt=""><figcaption></figcaption></figure>
 
 When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
 
-<figure><img src="../../../.gitbook/assets/image (531).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (690).png" alt=""><figcaption></figcaption></figure>
 
 Modify the `category` parameter to add an additional column containing a null value:
 
@@ -28,7 +28,7 @@ If They Give Error It's Mean There Is No Two Columns !!
 ' UNION SELECT NULL,NULL--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (532).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
 
 Now We Use This Query And Now  It's Confirm They Have Only Three  Columns !!
 
@@ -36,4 +36,4 @@ Now We Use This Query And Now  It's Confirm They Have Only Three  Columns !!
 ' UNION SELECT NULL,NULL,NULL--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (533).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure>

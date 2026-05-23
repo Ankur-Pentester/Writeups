@@ -1,6 +1,6 @@
 # Silent Stream
 
-<figure><img src="../../../.gitbook/assets/image (595).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (754).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -37,7 +37,7 @@ We Have a `.pcap`  packets file let's grep the all raw  data in `hex.txt` file u
 tshark -r packets.pcap -T fields -e data | tr -d '\n' > hex.txt
 ```
 
-<figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (755).png" alt=""><figcaption></figcaption></figure>
 
 We Use `Decrypt.py` python Script To decrypt the encrypt raw data !!
 
@@ -60,7 +60,7 @@ Then We Use `File` Command To Check The File Details !!
 
 Below The Image flag.bin file is a `jpeg` image data file .
 
-<figure><img src="../../../.gitbook/assets/image (597).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (756).png" alt=""><figcaption></figcaption></figure>
 
 Then We Use Below Command to open the image !!
 
@@ -68,7 +68,7 @@ Then We Use Below Command to open the image !!
 xdg-open flag.bin
 ```
 
-<figure><img src="../../../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
 
 #### Flag
 

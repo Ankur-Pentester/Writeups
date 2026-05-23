@@ -10,15 +10,15 @@ Let's Start !!
 
 First We Visit The Website !!
 
-<figure><img src="../../../.gitbook/assets/image (534).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
 
 We Try To Inject Single Quote `'` To Break The Backend Query !!
 
-<figure><img src="../../../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure>
 
 When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To Comment Out In Code !!
 
-<figure><img src="../../../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
 
 **Finding Number of Columns**
 
@@ -33,11 +33,11 @@ When We Inject `'--` They Fix The Query and Give No Error ,In SQL `--` Refer To 
 
 If `ORDER BY 4` fails, query has 3 columns.
 
-<figure><img src="../../../.gitbook/assets/image (537).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
 
 That `ORDER BY 4` fails, query has 3 columns.
 
-<figure><img src="../../../.gitbook/assets/image (538).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure>
 
 Now Let's Find The Which Column is in We Use String !!
 
@@ -49,7 +49,7 @@ We Use NULL and Try Three Combination If One Of The Payload Is Not Give Error It
 ' UNION SELECT 'b',NULL,NULL--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (539).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (698).png" alt=""><figcaption></figcaption></figure>
 
 Our Second Combination Don't Give Error It's Mean In This Column We Use String !!
 
@@ -57,7 +57,7 @@ Our Second Combination Don't Give Error It's Mean In This Column We Use String !
 ' UNION SELECT NULL,'b',NULL--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (540).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
 
 We Use Given String To Solve The This Lab !!
 
@@ -65,4 +65,4 @@ We Use Given String To Solve The This Lab !!
 ' UNION SELECT NULL,'4jczk2',NULL--
 ```
 
-<figure><img src="../../../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (700).png" alt=""><figcaption></figcaption></figure>

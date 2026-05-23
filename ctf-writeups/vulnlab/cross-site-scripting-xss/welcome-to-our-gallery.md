@@ -78,18 +78,18 @@ _`// Secure`_` ``$allowedImages = ['1', '2', '3', '4']; $img = $_GET['img']; if 
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Gallery page with ?img=1# showing four "Image" buttons and Mandalorian poster displayed
 
-<figure><img src="../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Changed to ?img=test showing broken image (black box) instead of valid image
 
-<figure><img src="../../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (347).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Source code showing vulnerable line 30 with direct insertion of user input in img src attribute: "test.jpg"
 
-<figure><img src="../../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (348).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: Payload injection in URL: ?img="onerror="alert(document.domain)" triggering alert box displaying "localhost"

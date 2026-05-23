@@ -126,19 +126,19 @@ Unrestricted file upload with RCE is one of the most critical web application vu
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (349).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Upload page displays "Allowed formats: gif, jpg, jpeg, png" indicating intended image-only restriction for file uploads.
 
-<figure><img src="../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Browser Developer Tools Network tab shows POST request with malicious PHP file cmd.php being uploaded with Content-Type: application/x-php, demonstrating bypass of stated restrictions.
 
-<figure><img src="../../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (351).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Success message "File uploaded successfully!" with file path "uploads/cmd.php" confirms malicious PHP web shell was accepted despite image-only policy.
 
-<figure><img src="../../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (352).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 4: Accessing uploaded shell at /uploads/cmd.php?cmd=id displays output "uid=33(www-data) gid=33(www-data) groups=33(www-data)" confirming successful Remote Code Execution with web server privileges.
 

@@ -141,11 +141,11 @@ $country = str_replace(['/', '\\\\', '.'], '', $country); *// Remove separators*
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Normal functionality shows URL parameter ?country=france.php at learn-the-capital-2, displaying "The capital of France is Paris." demonstrating intended country file inclusion.
 
-<figure><img src="../../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (311).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Filter bypass exploitation with payload ?country=..../admin.php successfully circumvents protection, displays "Welcome to the Admin page.." confirming bypassed filter and unauthorized access to restricted admin file through double traversal sequence.
 

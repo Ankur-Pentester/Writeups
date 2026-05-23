@@ -131,25 +131,25 @@ This vulnerability allows attackers to directly manipulate authentication data b
 
 #### 8. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
 
 * Normal user login (test)
 
-<figure><img src="../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
 
 * Authentication cookie extracted from browser
 
-<figure><img src="../../../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure>
 
 * Base64 decoded serialized object
 * Modified serialized payload `(username=admin)`
 
-<figure><img src="../../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (376).png" alt=""><figcaption></figcaption></figure>
 
 * Re-encoded cookie value
 
-<figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (377).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
 
 * Successful admin authentication (Welcome admin!)

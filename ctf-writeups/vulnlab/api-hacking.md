@@ -96,33 +96,33 @@ exit('Unauthorized');
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (422).png" alt=""><figcaption></figcaption></figure>
 
 * Login with low-privileged user
 
 
 
-<figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (423).png" alt=""><figcaption></figcaption></figure>
 
 * Intercepted DELETE request in Burp Suite
 
 
 
-<figure><img src="../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (424).png" alt=""><figcaption></figcaption></figure>
 
 * Manual modification of image parameter
 
 
 
-<figure><img src="../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
 
 * Successful deletion response `("success": true)`
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (427).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (428).png" alt=""><figcaption></figcaption></figure>
 
 * Apache directory listing confirming file removal
 

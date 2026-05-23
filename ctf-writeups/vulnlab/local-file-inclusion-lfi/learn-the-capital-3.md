@@ -105,10 +105,10 @@ This vulnerability demonstrates that extension-based filtering provides false se
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Initial attempt with URL parameter ?country=france.php at learn-the-capital-3 displays "ERROR: File not found!" indicating filter is blocking standard requests differently than previous versions.
 
-<figure><img src="../../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Successful bypass using payload ?country=file/../admin.php circumvents extension filter, displays "Welcome to the Admin page.." confirming path manipulation bypassed protection and gained unauthorized access to restricted admin file

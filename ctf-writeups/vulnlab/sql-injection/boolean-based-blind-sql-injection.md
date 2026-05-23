@@ -131,20 +131,20 @@ $stmt->execute([$search]);
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (416).png" alt=""><figcaption></figcaption></figure>
 
 * Stock Control page with product selection
 
-<figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (417).png" alt=""><figcaption></figcaption></figure>
 
 * Burp Suite intercepted POST request
 * Saved request file `(req.txt)`
 
-<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (418).png" alt=""><figcaption></figcaption></figure>
 
 * sqlmap confirmation of Boolean-based blind SQL injection
 
-<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (419).png" alt=""><figcaption></figcaption></figure>
 
 * Enumerated databases:
 * &#x20;`information_schema`
@@ -152,8 +152,8 @@ $stmt->execute([$search]);
 * `performance_schema`
 * `sql_injection`
 
-<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (420).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (421).png" alt=""><figcaption></figcaption></figure>
 
 * Dumped users table with credentials

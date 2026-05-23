@@ -105,16 +105,16 @@ $stmt->execute([$email]);
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (440).png" alt=""><figcaption></figcaption></figure>
 
 * Forgot Password form submission
 
-<figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (441).png" alt=""><figcaption></figcaption></figure>
 
 * Burp Suite intercepted POST request
 * Saved request file `(sql.txt)`
 
-<figure><img src="../../../.gitbook/assets/image (283).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (442).png" alt=""><figcaption></figcaption></figure>
 
 * sqlmap time-based blind detection
 * Enumerated databases:

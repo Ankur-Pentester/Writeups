@@ -46,15 +46,15 @@ Reverse engineering in Kali Linux is applied in different areas of cybersecurity
 
 Open IDA Pro and load the binary file to analyze.
 
-<figure><img src="../.gitbook/assets/image (569).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (728).png" alt=""><figcaption></figcaption></figure>
 
 Use the graphical interface to view disassembled code and control execution flow.
 
-<figure><img src="../.gitbook/assets/image (570).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (729).png" alt=""><figcaption></figcaption></figure>
 
 Apply the built-in debugger to set breakpoints and inspect program behavior.Right click on the function name to open the dialog box
 
-<figure><img src="../.gitbook/assets/image (572).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (731).png" alt=""><figcaption></figcaption></figure>
 
 > **Note:** Use IDA Pro to analyze malware binaries and identify obfuscated code or vulnerabilities.
 
@@ -74,7 +74,7 @@ Apply the built-in debugger to set breakpoints and inspect program behavior.Righ
 
 * Load a binary with the help of below command.
 
-<figure><img src="../.gitbook/assets/image (573).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (732).png" alt=""><figcaption></figcaption></figure>
 
 ```
 r2 <binary_file>.
@@ -82,7 +82,7 @@ r2 <binary_file>.
 
 Enter **`aaa`** to analyze all functions and data.
 
-<figure><img src="../.gitbook/assets/image (574).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (733).png" alt=""><figcaption></figcaption></figure>
 
 Some common commands you may use in your daily life.
 
@@ -113,7 +113,7 @@ Understanding [Assembly language](https://www.geeksforgeeks.org/computer-organiz
 objdump
 ```
 
-<figure><img src="../.gitbook/assets/image (575).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (734).png" alt=""><figcaption></figcaption></figure>
 
 * **strings**: Finds readable strings in binaries, useful for identifying hidden text.
   * Example: **`strings <binary_file>`** displays all human-readable content in an executable.
@@ -164,7 +164,7 @@ strace <binary_file>                          #  traces all system calls execute
 ltrace <binary_file>                           # shows dynamic library functions used by a binary
 ```
 
-<figure><img src="../.gitbook/assets/image (576).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (735).png" alt=""><figcaption></figcaption></figure>
 
 3\. **Analyzing Memory Usage**
 
@@ -207,7 +207,7 @@ apktool d <apk_file>.
 
 **b:** This is a short form for "build." It instructs apktool to rebuild the APK.
 
-<figure><img src="../.gitbook/assets/image (577).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (736).png" alt=""><figcaption></figcaption></figure>
 
 **dex2jar**: dex2jar is a tool used for Android application analysis. It converts Dalvik Executable (DEX) files from APKs into JAR files, enabling analysis with Java decompilers like jd-gui. It is mainly use for Android application analysis.
 
@@ -222,7 +222,7 @@ d2j-dex2jar -d <dex_file>
 
 * Analyze the resulting JAR file using jd-gui or other decompilers.
 
-<figure><img src="../.gitbook/assets/image (578).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
 
 **jd-gui**: JD-GUI is a graphical user interface (GUI) tool designed to decompile Java class files. It takes compiled Java bytecode (typically found in JAR files) and translates it back into readable Java source code. This is invaluable for understanding the inner workings of Java applications, libraries, and even malware
 
@@ -273,7 +273,7 @@ Binary Ninja is a commercial reverse engineering platform known for its user-fri
 * Explore the code using its graphical interface.
 * Use scripting capabilities for automated analysis.
 
-<figure><img src="../.gitbook/assets/image (579).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (738).png" alt=""><figcaption></figcaption></figure>
 
 > Note: It is mainly used in analyze firmware binaries to identify vulnerabilities in IoT devices.
 
@@ -292,7 +292,7 @@ ollydbg <executable_file>
 * Use its graphical interface to analyze assembly code, set breakpoints, and trace program execution.
 * Leverage plugins for extended capabilities such as unpacking or malware analysis.
 
-<figure><img src="../.gitbook/assets/image (580).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (739).png" alt=""><figcaption></figcaption></figure>
 
 > Note: Debug Windows executables to locate vulnerabilities or understand malware behavior.
 

@@ -72,18 +72,18 @@ Although no direct account compromise occurs, the CAPTCHA protection is fully br
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Message submission form with math-based CAPTCHA
 
-<figure><img src="../../../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Intercepted POST request showing modifiable CAPTCHA parameters
 
-<figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Successful CAPTCHA verification after request manipulation
 
-<figure><img src="../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (372).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: Stored messages confirming CAPTCHA bypass

@@ -77,23 +77,23 @@ _`// Secure`_` ``echo '<h2>' . htmlspecialchars($_GET['name'], ENT_QUOTES, 'UTF-
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Mandalorian Movie Tickets form with Name input field and "GET THE TICKET" button, "SEE YOUR TICKET" link below
 
-<figure><img src="../../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: After submitting "test", URL shows ?name=test# parameter and displays "test's" heading with movie poster
 
-<figure><img src="../../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (341).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Source code showing vulnerable line 18 with direct insertion of user input:\<h2>test\</h2>
 
-<figure><img src="../../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (342).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: Payload injection with `"onmouseover=alert(1)//"` visible in the Name field
 
-<figure><img src="../../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 5: Alert box displaying "1" triggered by mouseover event, confirming successful attribute-based XSS exploitation
 

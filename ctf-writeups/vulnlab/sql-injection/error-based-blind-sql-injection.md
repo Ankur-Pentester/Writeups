@@ -119,21 +119,21 @@ $stmt->execute([$img]);
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (276).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (435).png" alt=""><figcaption></figcaption></figure>
 
 * Vulnerable GET parameter (img)
 
-<figure><img src="../../../.gitbook/assets/image (277).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (436).png" alt=""><figcaption></figcaption></figure>
 
 * sqlmap detection of error-based SQL injection
 * Database enumeration output
 
-<figure><img src="../../../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (437).png" alt=""><figcaption></figcaption></figure>
 
 * Table enumeration `(users, images, stocks)`
 
-<figure><img src="../../../.gitbook/assets/image (279).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (438).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (280).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (439).png" alt=""><figcaption></figcaption></figure>
 
 * Dumped users table with credentials

@@ -142,10 +142,10 @@ $dom->loadXML($xml, LIBXML_DTDLOAD | LIBXML_DTDATTR);
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: XML External Entity Attack page shows "XML List" button at [http://localhost:1337/lab/xxe/xml/](http://localhost:1337/lab/xxe/xml/), indicating XML processing functionality exists.
 
-<figure><img src="../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (315).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Burp Suite intercepts POST request showing XXE payload with DOCTYPE declaration and entity reference \&ent;, response displays complete /etc/passwd file with system users confirming successful arbitrary file disclosure.

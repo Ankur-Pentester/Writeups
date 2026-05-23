@@ -113,14 +113,14 @@ Path Traversal vulnerabilities provide direct access to sensitive files and can 
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (359).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Product detail page with URL parameter ?productId=1.png displays product image and Robinson Crusoe book description demonstrating normal functionality.
 
-<figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (360).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Viewing page source reveals  showing vulnerable file path construction with relative paths, confirming productId parameter is used directly in file operations.
 
-<figure><img src="../../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (361).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Path traversal exploitation with payload ?productId=../../../../../../etc/passwd displays complete /etc/passwd file contents including all system users (root, daemon, bin, sys, www-data, mysql, etc.) confirming successful arbitrary file read vulnerability.

@@ -111,14 +111,14 @@ Server-Side Template Injection with RCE is one of the most severe web applicatio
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (356).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Blog page with Wappalyzer showing PHP backend, initial test with mathematical expression `{{7*7}}` displays result `49` in blog posts confirming template engine evaluates expressions and SSTI vulnerability exists.
 
-<figure><img src="../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (357).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: SSTI exploitation with payload `{{ ['id'] | filter('system') }}` displays `uid=33(www-data) gid=33(www-data) groups=33(www-data)` Array confirming successful Remote Code Execution on server.
 
-<figure><img src="../../../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (358).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Refined payload `{{ ['whoami'] | filter('system') }}` displays cleaner output www-data Array confirming complete server compromise with command execution capabilities.

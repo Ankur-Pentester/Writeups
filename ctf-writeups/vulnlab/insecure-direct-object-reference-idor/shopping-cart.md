@@ -81,45 +81,45 @@ This vulnerability allows attackers to bypass authorization and business logic c
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (331).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (490).png" alt=""><figcaption></figcaption></figure>
 
 * Initial shopping cart showing available items and prices and its have Product list with add-to-cart functionality and we add in cart successfully.
 
-<figure><img src="../../../.gitbook/assets/image (332).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (491).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (492).png" alt=""><figcaption></figcaption></figure>
 
 * Our balance is $1000 and we also have a buy button then we click they say you don’t have a enough balance .
 
-<figure><img src="../../../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (493).png" alt=""><figcaption></figcaption></figure>
 
 * Let’s try the buy function and see what happened and its
 
-<figure><img src="../../../.gitbook/assets/image (335).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (494).png" alt=""><figcaption></figcaption></figure>
 
 * buy successfully.
 
-<figure><img src="../../../.gitbook/assets/image (336).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (495).png" alt=""><figcaption></figcaption></figure>
 
 * We don’t have enough balance to buy it that’s by we use Direct access to internal validation endpoints
 
-<figure><img src="../../../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (496).png" alt=""><figcaption></figcaption></figure>
 
 * Direct access to internal validation endpoints
 
-<figure><img src="../../../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (497).png" alt=""><figcaption></figcaption></figure>
 
 * Now this time we bypass the amount checking functionility and now we access the otp dashboard.
 
-<figure><img src="../../../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (498).png" alt=""><figcaption></figcaption></figure>
 
 * Now be copy the otp and paste on it otp page.
 
-<figure><img src="../../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (499).png" alt=""><figcaption></figcaption></figure>
 
 * Now then we paste the otp and its valid and we finally buy the cart items
 
-<figure><img src="../../../.gitbook/assets/image (341).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (500).png" alt=""><figcaption></figcaption></figure>
 
 * Successful purchase confirmation
 * Negative account balance after transaction

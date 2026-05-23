@@ -80,27 +80,27 @@ _// Secure_ $userAgent = htmlspecialchars($\_SERVER\['HTTP\_USER\_AGENT'], ENT\_
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (509).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Login page with mandalorian/mandalorian credentials displayed
 
-<figure><img src="../../../.gitbook/assets/image (351).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (510).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Success message after login: "Admin logs your user agent data. if you are curious about how it looks from admin panel" with "Click Here" button
 
-<figure><img src="../../../.gitbook/assets/image (352).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (511).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Admin panel displaying table of stored User-Agent data showing various browser user agents from different users
 
-<figure><img src="../../../.gitbook/assets/image (353).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (512).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: Burp Suite intercept showing POST request with malicious User-Agent header:`<script>alert(9)</script>`
 
-<figure><img src="../../../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (513).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 5: Burp Suite menu showing "Do intercept" and "Response to this request" options for forwarding the modified request
 
-<figure><img src="../../../.gitbook/assets/image (355).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 6: Alert box displaying "localhost" confirming successful stored XSS exploitation via User-Agent header
 

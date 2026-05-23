@@ -70,18 +70,18 @@ The vulnerability allows attackers to access sensitive content without valid cre
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (287).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Login page indicating direct access to `index.php`
 
-<figure><img src="../../../.gitbook/assets/image (288).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (447).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Intercepted unauthenticated request to protected endpoint
 
-<figure><img src="../../../.gitbook/assets/image (289).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (448).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Server response showing HTTP 302 with sensitive content
 
-<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (449).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: Rendered admin/dashboard content accessible without login

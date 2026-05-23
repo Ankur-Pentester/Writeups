@@ -75,19 +75,19 @@ _`// Secure`_` ``element.textContent = userInput;`
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (335).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Triangle area calculator interface with Height and Base input fields
 
-<figure><img src="../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (336).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Calculation result showing "Area: 72" after entering values 12 and 12, URL reflects parameters
 
-<figure><img src="../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Source code view showing vulnerable JavaScript on line 35 using innerHTML without sanitization
 
-<figure><img src="../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
 
 Figure 4: XSS payload in URL (URL-encoded script tags) triggering alert box displaying "9"
 

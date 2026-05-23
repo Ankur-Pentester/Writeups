@@ -111,16 +111,16 @@ Business logic vulnerabilities affecting financial transactions represent existe
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure>
 
 Screenshot 1: Ticket Sales page displays ticket price "10 $" and account balance "990 $" with purchase history showing "Number of tickets you bought: 1" and "Money you pay: 10 $" demonstrating normal transaction.
 
-<figure><img src="../../../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (463).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (305).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (464).png" alt=""><figcaption></figcaption></figure>
 
 Screenshot 2: Burp Suite intercepts POST request showing vulnerable parameters amount=100\&ticket\_money=0.1 revealing client controls both quantity and price, with context menu showing "Do intercept" and "Response to this request" options.
 
-<figure><img src="../../../.gitbook/assets/image (306).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (465).png" alt=""><figcaption></figcaption></figure>
 
 Screenshot 3: After manipulating ticket\_money parameter, page displays account balance increased to "1000 $" with "Number of tickets you bought: 100" and "Money you pay: 0 $" confirming successful price manipulation allowing 100 tickets purchased for free.

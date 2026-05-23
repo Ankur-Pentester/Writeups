@@ -85,14 +85,14 @@ The vulnerability allows full compromise of user accounts without any user inter
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (443).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Login page showing failed authentication message
 
-<figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Hydra brute-force attack successfully discovering valid credentials
 
-<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Successful login confirmation message after brute-force attack

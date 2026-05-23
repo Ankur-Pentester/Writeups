@@ -99,7 +99,7 @@ Even with basic filtering in place, the vulnerability remains critical as attack
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
 
 *   Figure 1: Send Ping (Filter) interface with input field containing "`||id`" payload, showing the filtered version of the ping command that attempts to block certain separators
 

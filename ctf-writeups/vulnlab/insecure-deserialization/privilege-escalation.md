@@ -192,36 +192,36 @@ Client-side manipulation of serialized objects leads directly to full privilege 
 
 #### 8. Screenshots / Evidence
 
-<figure><img src="../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
 
 * Login with restricted user
 
-<figure><img src="../../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (388).png" alt=""><figcaption></figcaption></figure>
 
 * Session cookie extraction
 
-<figure><img src="../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (389).png" alt=""><figcaption></figcaption></figure>
 
 * Decoded serialized object
 
-<figure><img src="../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (390).png" alt=""><figcaption></figcaption></figure>
 
 * Cracked MD5 hash
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (391).png" alt=""><figcaption></figcaption></figure>
 
 * Create administrator MD5 Hash For Admin Login
 
-<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (392).png" alt=""><figcaption></figcaption></figure>
 
 * Modified permission flags
 * Re-encoded cookie
 
-<figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (393).png" alt=""><figcaption></figcaption></figure>
 
 * Paste The encoded cookie and refresh the Page
 
-<figure><img src="../../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (394).png" alt=""><figcaption></figcaption></figure>
 
 * Full privileges enabled
 

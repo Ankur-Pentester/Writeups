@@ -27,7 +27,7 @@ pickle.loads(base64.b64decode(s))
 
 ```
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 
 Exploit Script To RCE
 

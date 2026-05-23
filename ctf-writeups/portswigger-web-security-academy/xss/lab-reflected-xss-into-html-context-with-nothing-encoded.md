@@ -6,22 +6,26 @@ To solve the lab, perform a cross-site scripting attack that calls the `alert` f
 
 ***
 
-Test
+We Have a Search Box and Here We Right Test and They Show on The Web Page !
 
-<figure><img src="../../../.gitbook/assets/image (624).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (784).png" alt=""><figcaption></figcaption></figure>
 
-Test
+Then I Try Some Html Injection To Verify Here is XSS Possible or Not and Then I Use Html Bold Tag and Test Has Been Bold Succesfully !
 
-<figure><img src="../../../.gitbook/assets/image (625).png" alt=""><figcaption></figcaption></figure>
+```
+<b>Test</b>
+```
 
-Test
+<figure><img src="../../../.gitbook/assets/image (785).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (626).png" alt=""><figcaption></figcaption></figure>
+Then I use XSS `alert()` Function Payload !!
 
-Test
+```
+<script>alert()</script>
+```
 
-<figure><img src="../../../.gitbook/assets/image (627).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (786).png" alt=""><figcaption></figcaption></figure>
 
-Test
+Lab Has Been Solved Succesfully !
 
-<figure><img src="../../../.gitbook/assets/image (628).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>

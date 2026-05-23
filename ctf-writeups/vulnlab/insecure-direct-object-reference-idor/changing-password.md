@@ -109,26 +109,26 @@ IDOR vulnerabilities in password change functionality represent critical securit
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Password change page displays logged-in user "Christopher" with password change form showing successful password change for Christopher's own account.
 
-<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (467).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: After successful password change, success message confirms "Christopher's password has been changed" demonstrating normal functionality for legitimate user.
 
-<figure><img src="../../../.gitbook/assets/image (309).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (468).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: FoxyProxy extension enabled with "Time" option selected to route traffic through Burp Suite, password field contains "Hacker", preparing to intercept request.
 
-<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (469).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 4: Burp Suite intercepts POST request showing parameters `password=Hacker&user_id=1`, with context menu displaying "Do intercept" and "Response to this request" options for request manipulation.
 
-<figure><img src="../../../.gitbook/assets/image (311).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (470).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 5: Modified request with `password=Hacker&user_id=2` targeting different user, context menu shows interception options to forward tampered request.
 
-<figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (471).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 6: Success message displays "Pierre's password has been changed" confirming IDOR exploitation successfully changed another user's password without authorization, achieving complete account takeover.

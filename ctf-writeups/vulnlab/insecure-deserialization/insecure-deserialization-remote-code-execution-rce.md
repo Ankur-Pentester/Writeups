@@ -164,28 +164,28 @@ This vulnerability allows unauthenticated attackers to execute arbitrary OS comm
 
 #### 8. Screenshots / Evidence
 
-<figure><img src="../../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (395).png" alt=""><figcaption></figcaption></figure>
 
 * Login page
 
-<figure><img src="../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (396).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (397).png" alt=""><figcaption></figcaption></figure>
 
 * Extracted Base64 session cookie
 
-<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure>
 
 * Decoded serialized PHP object
 
-<figure><img src="../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (399).png" alt=""><figcaption></figcaption></figure>
 
 * Modified serialized payload
 * Re-encoded Base64 cookie
 
-<figure><img src="../../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (400).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
 
 * Command execution output (id)
 * Proof of execution as www-data

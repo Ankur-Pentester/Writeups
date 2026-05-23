@@ -18,7 +18,7 @@ For instance, we can identify all GraphQL types supported by the backend using t
 
 The results contain basic default types, such as `Int` or `Boolean`, but also all custom types, such as `UserObject`:
 
-<figure><img src="../../../.gitbook/assets/image (479).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (638).png" alt=""><figcaption></figcaption></figure>
 
 Now that we know a type, we can follow up and obtain the name of all of the type's fields with the following introspection query:
 
@@ -32,7 +32,7 @@ Now that we know a type, we can follow up and obtain the name of all of the type
 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (480).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (639).png" alt=""><figcaption></figcaption></figure>
 
 Furthermore, we can obtain all the queries supported by the backend using this query:
 
@@ -226,7 +226,7 @@ fragment TypeRef on __Type {
 
 From the result, we can identify a mutation registerUser, presumably allowing us to create new users. The mutation requires a RegisterUserInput object as an input:
 
-<figure><img src="../../../.gitbook/assets/image (481).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (640).png" alt=""><figcaption></figcaption></figure>
 
 We can now query all fields of the RegisterUserInput object with the following introspection query to obtain all fields that we can use in the mutation:
 
@@ -245,7 +245,7 @@ We can now query all fields of the RegisterUserInput object with the following i
 
 From the result, we can identify that we can provide the new user's username, password, role, and msg:
 
-<figure><img src="../../../.gitbook/assets/image (482).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (641).png" alt=""><figcaption></figcaption></figure>
 
 With the hashed password, we can now finally register a new user by running the mutation:
 
@@ -264,7 +264,7 @@ mutation {
 
 The result contains the fields we queried in the mutation's body so that we can check for errors:
 
-<figure><img src="../../../.gitbook/assets/image (483).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (642).png" alt=""><figcaption></figcaption></figure>
 
 ### **Exploitation with Mutations**
 
@@ -287,7 +287,7 @@ mutation {
 
 In the result, we can see that the role `admin` is reflected, which indicates that the attack was successful:
 
-<figure><img src="../../../.gitbook/assets/image (484).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (643).png" alt=""><figcaption></figcaption></figure>
 
 Website :- [https://apis.guru/graphql-voyager/](https://apis.guru/graphql-voyager/)
 

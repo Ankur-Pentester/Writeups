@@ -1,12 +1,12 @@
 # Transformation
 
-<figure><img src="../../../.gitbook/assets/image (581).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (740).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 Let's First Download The `enc` File !!
 
-<figure><img src="../../../.gitbook/assets/image (582).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (741).png" alt=""><figcaption></figcaption></figure>
 
 ```
 灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸形㝦㘲捡㕽
@@ -134,7 +134,7 @@ print(flag)
 
 Run The Script In Terminal !!<br>
 
-<figure><img src="../../../.gitbook/assets/image (584).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (743).png" alt=""><figcaption></figcaption></figure>
 
 ```
 picoCTF{16_bits_inst34d_of_8_b7f62ca5}

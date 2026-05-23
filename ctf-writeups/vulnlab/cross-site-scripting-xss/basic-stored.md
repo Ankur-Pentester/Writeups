@@ -63,26 +63,26 @@ Apply HTML encoding on output:
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (329).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: Login page with credentials (mandalorian/mandalorian)
 
-<figure><img src="../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (330).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Message submission interface with warning "All Users Can See Your Message"
 
-<figure><img src="../../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (331).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Test message stored and displayed successfully
 
-<figure><img src="../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (332).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 4: Source code showing vulnerable rendering on line 21 without encoding
 
-<figure><img src="../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 5: XSS payload `<script>alert(9)</script>` entered in text area
 
-<figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 6: Alert box displaying "9" confirming successful stored XSS exploitation

@@ -113,24 +113,24 @@ Example Secure Code (PHP):
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
 
 * Displays the search functionality where the payload "test" was initially entered
 * URL shows the query parameter being reflected in the address bar
 
-<figure><img src="../../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (326).png" alt=""><figcaption></figcaption></figure>
 
 * Demonstrates the search query being reflected in the URL: ?q=test#
 * Shows "No Result Found for test" message with "Try Again" link
 * Confirms that user input is being processed and reflected back to the user
 
-<figure><img src="../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (327).png" alt=""><figcaption></figcaption></figure>
 
 * View-source page revealing the vulnerable code structure
 * Line 17 shows the direct reflection of user input without sanitization
 * Confirms absence of input sanitization or output encoding mechanisms
 
-<figure><img src="../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (328).png" alt=""><figcaption></figcaption></figure>
 
 * JavaScript alert box displaying "9" confirming successful code execution
 * URL shows the malicious payload: ?q=alert(9)#

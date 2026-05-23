@@ -79,14 +79,14 @@ _`// Secure`_` ``$filename = basename($`_`FILES['file']['name']); $filename = pr
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (347).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (506).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 1: File upload interface showing profile picture upload with "test.jpg" selected, displaying "Welcome mandalorian" profile with personal details
 
-<figure><img src="../../../.gitbook/assets/image (348).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (507).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 2: Malicious filename visible in upload field: ">\<img src=x o..t("Hack")>.png with Browse button and Upload button
 
-<figure><img src="../../../.gitbook/assets/image (349).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (508).png" alt=""><figcaption></figcaption></figure>
 
 * Figure 3: Alert box displaying "Hack" confirming successful stored XSS exploitation via malicious filename<br>

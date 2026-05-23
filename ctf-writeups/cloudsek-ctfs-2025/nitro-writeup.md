@@ -196,7 +196,7 @@ if "flag" in p.text.lower():
 
 ### Final Run The Script
 
-<figure><img src="../../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
 
 ```
 Flag : ClOuDsEk_ReSeArCH_tEaM_CTF_2025{ab03730caf95ef90a440629bf12228d4}

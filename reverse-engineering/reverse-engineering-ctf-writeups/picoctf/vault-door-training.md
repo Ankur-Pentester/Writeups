@@ -1,12 +1,12 @@
 # vault-door-training
 
-<figure><img src="../../../.gitbook/assets/image (585).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (744).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 This challenge provides a Java source file (`VaultDoorTraining.java`) that simulates a vault door asking for a password. The goal is to reverse engineer the program and determine the correct password to gain access.
 
-<figure><img src="../../../.gitbook/assets/image (586).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (745).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 1 – Inspect the Source Code
 
@@ -81,7 +81,7 @@ Output:
 Access granted.
 ```
 
-<figure><img src="../../../.gitbook/assets/image (587).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (746).png" alt=""><figcaption></figcaption></figure>
 
 #### Final Flag
 

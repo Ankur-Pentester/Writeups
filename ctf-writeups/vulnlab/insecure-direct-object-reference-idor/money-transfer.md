@@ -140,18 +140,18 @@ Financial transaction vulnerabilities allowing unauthorized fund transfers repre
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (472).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: Money Transfer page shows User 1 with balance 990 $ and successful transfer of 1 $ to User 2, with user table displaying User 1: 990 $ and User 2: 1010 $ demonstrating normal transaction flow.
 
-<figure><img src="../../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (473).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Burp Suite intercepts POST request revealing vulnerable parameters `transfer_amount=1&recipient_id=2&sender_id=1` showing client controls sender identification enabling unauthorized transfers.
 
-<figure><img src="../../../.gitbook/assets/image (315).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (474).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Modified request with parameters `transfer_amount=500&recipient_id=1&sender_id=2` with context menu showing "Do intercept" and "Response to this request" options preparing to execute fraudulent transfer from User 2 to User 1.
 
-<figure><img src="../../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (475).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 4: After forwarding tampered request, page displays User 1's balance increased to 1490 $ with success message, user table shows User 1: 1490 $ and User 2: 510 $ confirming successful theft of 500 $ from User 2's account without authorization.

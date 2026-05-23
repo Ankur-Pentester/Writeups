@@ -191,34 +191,34 @@ This vulnerability allows unauthenticated attackers to fully control and extract
 
 #### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (407).png" alt=""><figcaption></figcaption></figure>
 
 * Normal data listing without payload
 
-<figure><img src="../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (408).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (410).png" alt=""><figcaption></figcaption></figure>
 
 * ORDER BY enumeration screenshots
 
-<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (411).png" alt=""><figcaption></figcaption></figure>
 
 * UNION SELECT version disclosure
 
-<figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (412).png" alt=""><figcaption></figcaption></figure>
 
 * Database name extraction
 
-<figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (413).png" alt=""><figcaption></figcaption></figure>
 
 * sqlmap database enumeration
 
-<figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (414).png" alt=""><figcaption></figcaption></figure>
 
 * sqlmap table listing
 
-<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (415).png" alt=""><figcaption></figcaption></figure>
 
 * sqlmap users table dump (credentials disclosure)

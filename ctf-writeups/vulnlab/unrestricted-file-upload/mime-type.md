@@ -110,14 +110,14 @@ MIME type validation bypass leading to RCE is a critical vulnerability that prov
 
 ### 7. Screenshots / Logs / Payloads
 
-<figure><img src="../../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (353).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 1: MIME Type upload page shows cmd.php file selected with "Allowed formats: gif, jpg, jpeg, png" restriction indicating MIME type-based validation.
 
-<figure><img src="../../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 2: Burp Suite intercepts upload request showing Content-Type: image/png header manipulation for cmd.php file, with success message "File uploaded successfully!" and path "uploads/cmd.php" confirming MIME type validation was bypassed.
 
-<figure><img src="../../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (355).png" alt=""><figcaption></figcaption></figure>
 
 * Screenshot 3: Accessing uploaded web shell at /uploads/cmd.php?cmd=id displays "uid=33(www-data) gid=33(www-data) groups=33(www-data)" confirming successful Remote Code Execution through MIME type bypass vulnerability.
