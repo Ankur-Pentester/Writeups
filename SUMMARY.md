@@ -13,6 +13,7 @@
       * [Lab: Stored XSS into HTML context with nothing encoded](ctf-writeups/portswigger-web-security-academy/xss/lab-stored-xss-into-html-context-with-nothing-encoded.md)
       * [Lab: DOM XSS in document.write sink using source location.search](ctf-writeups/portswigger-web-security-academy/xss/lab-dom-xss-in-document.write-sink-using-source-location.search.md)
       * [Lab: DOM XSS in document.write sink using source location.search inside a select element](ctf-writeups/portswigger-web-security-academy/xss/lab-dom-xss-in-document.write-sink-using-source-location.search-inside-a-select-element.md)
+      * [Lab: DOM XSS in innerHTML sink using source location.search](ctf-writeups/portswigger-web-security-academy/xss/lab-dom-xss-in-innerhtml-sink-using-source-location.search.md)
     * [OAuth authentication](ctf-writeups/portswigger-web-security-academy/oauth-authentication/README.md)
       * [What is OAuth authentication ?](ctf-writeups/portswigger-web-security-academy/oauth-authentication/what-is-oauth-authentication.md)
     * [HTTP Host header attacks](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/README.md)
