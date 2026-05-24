@@ -6,3 +6,13 @@ To solve this lab, perform a cross-site scripting attack that calls the `alert` 
 
 ***
 
+TEST
+
+<figure><img src="../../../.gitbook/assets/image (802).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
+<figure><img src="../../../.gitbook/assets/image (803).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
