@@ -22,6 +22,6 @@ After Encoding -&#x20;
 &lt;&lt;<img src=x onerror=alert(1)>
 ```
 
-Then `<img>` Tag Execute The Xss
+In an attempt to prevent XSS, the website uses the JavaScript `replace()` function to encode angle brackets. However, when the first argument is a string, the function only replaces the first occurrence. We exploit this vulnerability by simply including an extra set of angle brackets at the beginning of the comment. These angle brackets will be encoded, but any subsequent angle brackets will be unaffected, enabling us to effectively bypass the filter and inject HTML.
 
 <figure><img src="../../../.gitbook/assets/image (817).png" alt=""><figcaption></figcaption></figure>
