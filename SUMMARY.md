@@ -15,6 +15,7 @@
       * [Lab: DOM XSS in document.write sink using source location.search inside a select element](ctf-writeups/portswigger-web-security-academy/xss/lab-dom-xss-in-document.write-sink-using-source-location.search-inside-a-select-element.md)
       * [Lab: DOM XSS in innerHTML sink using source location.search](ctf-writeups/portswigger-web-security-academy/xss/lab-dom-xss-in-innerhtml-sink-using-source-location.search.md)
       * [Lab: DOM XSS in jQuery anchor href attribute sink using location.search source](ctf-writeups/portswigger-web-security-academy/xss/lab-dom-xss-in-jquery-anchor-href-attribute-sink-using-location.search-source.md)
+      * [Lab: DOM XSS in jQuery selector sink using a hashchange event](ctf-writeups/portswigger-web-security-academy/xss/lab-dom-xss-in-jquery-selector-sink-using-a-hashchange-event.md)
     * [OAuth authentication](ctf-writeups/portswigger-web-security-academy/oauth-authentication/README.md)
       * [What is OAuth authentication ?](ctf-writeups/portswigger-web-security-academy/oauth-authentication/what-is-oauth-authentication.md)
     * [HTTP Host header attacks](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/README.md)
