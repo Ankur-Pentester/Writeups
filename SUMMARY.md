@@ -21,6 +21,7 @@
       * [Lab: Stored DOM XSS](ctf-writeups/portswigger-web-security-academy/xss/lab-stored-dom-xss.md)
     * [OAuth authentication](ctf-writeups/portswigger-web-security-academy/oauth-authentication/README.md)
       * [What is OAuth authentication ?](ctf-writeups/portswigger-web-security-academy/oauth-authentication/what-is-oauth-authentication.md)
+      * [Lab: Authentication bypass via OAuth implicit flow](ctf-writeups/portswigger-web-security-academy/oauth-authentication/lab-authentication-bypass-via-oauth-implicit-flow.md)
     * [HTTP Host header attacks](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/README.md)
       * [What is HTTP Host header attacks ?](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/what-is-http-host-header-attacks.md)
       * [Lab: Basic password reset poisoning](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/lab-basic-password-reset-poisoning.md)
