@@ -23,6 +23,7 @@
       * [What is OAuth authentication ?](ctf-writeups/portswigger-web-security-academy/oauth-authentication/what-is-oauth-authentication.md)
     * [HTTP Host header attacks](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/README.md)
       * [What is HTTP Host header attacks ?](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/what-is-http-host-header-attacks.md)
+      * [Lab: Basic password reset poisoning](ctf-writeups/portswigger-web-security-academy/http-host-header-attacks/lab-basic-password-reset-poisoning.md)
     * [Web cache poisoning](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/README.md)
       * [What is Web cache poisoning ?](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/what-is-web-cache-poisoning.md)
       * [Lab: Web cache poisoning with an unkeyed header](ctf-writeups/portswigger-web-security-academy/web-cache-poisoning/lab-web-cache-poisoning-with-an-unkeyed-header.md)
