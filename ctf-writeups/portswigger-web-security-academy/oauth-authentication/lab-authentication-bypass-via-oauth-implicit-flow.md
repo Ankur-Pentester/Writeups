@@ -8,26 +8,26 @@ You can log in with your own social media account using the following credential
 
 ***
 
-TEST
+First Login In Using Given Credential !!
 
 <figure><img src="../../../.gitbook/assets/image (823).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then Click Continue !
 
 <figure><img src="../../../.gitbook/assets/image (824).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+While proxying traffic through Burp, click "My account" and complete the OAuth login process. Afterwards, you will be redirected back to the blog website.
 
 <figure><img src="../../../.gitbook/assets/image (825).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+`access_token` is Leak In URL !
 
 <figure><img src="../../../.gitbook/assets/image (826).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then I Change The Email and username to `carlos`
 
 <figure><img src="../../../.gitbook/assets/image (827).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then I Set The Cookie in Storage Tab and Refresh The Page !!
 
 <figure><img src="../../../.gitbook/assets/image (828).png" alt=""><figcaption></figcaption></figure>
