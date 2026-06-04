@@ -279,7 +279,9 @@ Serves machine learning models in production.
 ### Default Ports
 
 ```
-800080018002
+8000
+8001
+8002
 ```
 
 ***
@@ -368,7 +370,8 @@ Object storage system.
 ### Default Ports
 
 ```
-90009001
+9000
+9001
 ```
 
 ***
@@ -464,7 +467,11 @@ Malformed requests often reveal:
 Common AI endpoints:
 
 ```
-/v1/models/v2/models/predict/infer/embeddings
+/v1/models
+/v2/models
+/predict
+/infer
+/embeddings
 ```
 
 ***
@@ -496,7 +503,9 @@ grpcurl -plaintext target:8001 list
 Example:
 
 ```
-inference.GRPCInferenceServicegrpc.health.v1.Healthgrpc.reflection.v1alpha.ServerReflection
+inference.GRPCInferenceService
+grpc.health.v1.Health
+grpc.reflection.v1alpha.ServerReflection
 ```
 
 ***
@@ -776,7 +785,8 @@ Repeated requests to:
 Requests to:
 
 ```
-/registered-models/list/model-versions/search
+/registered-models/list
+/model-versions/search
 ```
 
 without corresponding UI activity.
@@ -788,7 +798,8 @@ without corresponding UI activity.
 Requests to:
 
 ```
-/api/contents/api/kernels
+/api/contents
+/api/kernels
 ```
 
 without authentication.
@@ -800,7 +811,13 @@ without authentication.
 Sequential probes of:
 
 ```
-5000633380008001826588889000
+5000
+6333
+8000
+8001
+8265
+8888
+9000
 ```
 
 ***
