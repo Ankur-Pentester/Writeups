@@ -12,19 +12,27 @@ Bella Ciao, operatives.
 
 ***
 
-TEST
+First Visit The Website Properly and Think How It's Work !!
 
 <figure><img src="../../../.gitbook/assets/image (839).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then We Redirect On The Login page and I Login using This credential : `denver/hahahahaha`
 
 <figure><img src="../../../.gitbook/assets/image (840).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+In Website  we see this website is powered by jinja2 <--— This is a red flag !!
+
+
+
+Then I use The SSTI Payloads and It's Work Then here i got a Secret\_key= xxxx-xxxx-xxxx
+
+
+
+After Thinking I Think Website use Flask  Library Cookie !!
 
 <figure><img src="../../../.gitbook/assets/image (841).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Here Is The flask cookie decode looks like This !!
 
 ```
 base64(payload).timestamp.signature
@@ -35,21 +43,21 @@ base64(payload).timestamp.signature
 {"codename":"Denver","role":"recruit","user":"denver"}
 ```
 
-TEST
+Then i use `flask-unsign` python library and Tamper the cookie and I Change The Role To elite !!
 
 ```
 flask-unsign --sign --cookie '{"codename":"Denver","role":"elite","user":"denver"}' --secret 'lacasadepapel-secret-2024'
 ```
 
-TEST
+We Forged The cookie With The High privilege Role !!
 
 <figure><img src="../../../.gitbook/assets/image (842).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then Paste The Cookie In Storage !!
 
 <figure><img src="../../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then i able To Visit The INTEL ROOM and I Got The Flag !!
 
 <figure><img src="../../../.gitbook/assets/image (844).png" alt=""><figcaption></figcaption></figure>
 
