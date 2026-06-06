@@ -198,6 +198,7 @@
   * [CyberHx CTF](ctf-writeups/cyberhx-ctf/README.md)
     * [WEB](ctf-writeups/cyberhx-ctf/web/README.md)
       * [Professor Mind](ctf-writeups/cyberhx-ctf/web/professor-mind.md)
+      * [Bella Ciao Secure Comms](ctf-writeups/cyberhx-ctf/web/bella-ciao-secure-comms.md)
 * [CVE](cve/README.md)
   * [React2Shell: CVE-2025-55182](cve/react2shell-cve-2025-55182.md)
   * [n8n: CVE-2025-68613](cve/n8n-cve-2025-68613.md)
