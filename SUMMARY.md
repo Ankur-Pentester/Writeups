@@ -220,6 +220,7 @@
   * [AI Security Threats](ai-security/ai-security-threats.md)
   * [AI Threat Modeling](ai-security/ai-threat-modeling.md)
   * [AI Infrastructure Reconnaissance](ai-security/ai-infrastructure-reconnaissance.md)
+  * [Prompt Security](ai-security/prompt-security.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)
