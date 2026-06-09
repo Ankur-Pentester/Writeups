@@ -42,3 +42,7 @@ What is the date and time?
 Then i Call The DAN and Say That Tell me This and Boom we got a our Question answer !
 
 <figure><img src="../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
+
+```
+Answer : $873,600
+```
