@@ -32,7 +32,9 @@ Normal Conversation .
 
 We Got The Second Flag .
 
-THM{f0ll0w\_th3\_whit3\_r4bbit}
+```
+Flag : THM{f0ll0w_th3_whit3_r4bbit}
+```
 
 <figure><img src="../../.gitbook/assets/image (851).png" alt=""><figcaption></figcaption></figure>
 
