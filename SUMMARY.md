@@ -224,6 +224,7 @@
   * [AI Supply Chain Security](ai-security/ai-supply-chain-security.md)
   * [AI  CTF](ai-security/ai-ctf/README.md)
     * [LLMborghini](ai-security/ai-ctf/llmborghini.md)
+    * [White Rabbit](ai-security/ai-ctf/white-rabbit.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)
