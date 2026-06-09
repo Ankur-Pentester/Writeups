@@ -222,6 +222,7 @@
   * [AI Infrastructure Reconnaissance](ai-security/ai-infrastructure-reconnaissance.md)
   * [Prompt Security](ai-security/prompt-security.md)
   * [AI Supply Chain Security](ai-security/ai-supply-chain-security.md)
+  * [AI  CTF](ai-security/ai-ctf.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)
