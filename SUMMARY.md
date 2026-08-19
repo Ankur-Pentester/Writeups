@@ -235,7 +235,7 @@
   * [Fundamentals of AI](ai-security-hackthebox-content/fundamentals-of-ai/README.md)
     * [Introduction to Machine Learning](ai-security-hackthebox-content/fundamentals-of-ai/introduction-to-machine-learning/README.md)
       * [Mathematics Refresher for AI](ai-security-hackthebox-content/fundamentals-of-ai/introduction-to-machine-learning/mathematics-refresher-for-ai.md)
-    * [Page 2](ai-security-hackthebox-content/fundamentals-of-ai/page-2.md)
+    * [Supervised Learning Algorithms](ai-security-hackthebox-content/fundamentals-of-ai/supervised-learning-algorithms.md)
     * [Page 3](ai-security-hackthebox-content/fundamentals-of-ai/page-3.md)
     * [Page 4](ai-security-hackthebox-content/fundamentals-of-ai/page-4.md)
     * [Page 5](ai-security-hackthebox-content/fundamentals-of-ai/page-5.md)
