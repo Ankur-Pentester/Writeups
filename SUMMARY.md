@@ -215,7 +215,7 @@
       * [vault-door-training](reverse-engineering/reverse-engineering-ctf-writeups/picoctf/vault-door-training.md)
       * [Pico Bank](reverse-engineering/reverse-engineering-ctf-writeups/picoctf/pico-bank.md)
       * [Silent Stream](reverse-engineering/reverse-engineering-ctf-writeups/picoctf/silent-stream.md)
-* [AI Security ( Tryhackme content )](ai-security-tryhackme-content/README.md)
+* [AI Security ( Tryhackme Content )](ai-security-tryhackme-content/README.md)
   * [AI Fundamentals](ai-security-tryhackme-content/ai-fundamentals.md)
   * [AI Security Threats](ai-security-tryhackme-content/ai-security-threats.md)
   * [AI Threat Modeling](ai-security-tryhackme-content/ai-threat-modeling.md)
