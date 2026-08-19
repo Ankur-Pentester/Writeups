@@ -12,7 +12,7 @@ In computer science, the terms Artificial Intelligence (AI) and Machine Learning
 
 ### 1. Artificial Intelligence (AI)
 
-<figure><img src="../../.gitbook/assets/image (854).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (854).png" alt=""><figcaption></figcaption></figure>
 
 Artificial Intelligence (AI) is a broad field focused on developing intelligent systems capable of performing tasks that typically require human intelligence.
 
