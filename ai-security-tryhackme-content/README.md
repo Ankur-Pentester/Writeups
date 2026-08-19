@@ -1,6 +1,6 @@
 ---
-icon: star
+icon: brain-circuit
 ---
 
-# AI Security
+# AI Security ( Tryhackme Content )
 
