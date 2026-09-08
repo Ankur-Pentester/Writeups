@@ -225,6 +225,7 @@
   * [AI  CTF](ai-security-tryhackme-content/ai-ctf/README.md)
     * [LLMborghini](ai-security-tryhackme-content/ai-ctf/llmborghini.md)
     * [White Rabbit](ai-security-tryhackme-content/ai-ctf/white-rabbit.md)
+    * [Juicy](ai-security-tryhackme-content/ai-ctf/juicy.md)
 * [Container Security](container-security/README.md)
   * [Intro to Docker](container-security/intro-to-docker.md)
 * [RCE](rce/README.md)
