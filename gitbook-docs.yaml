@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Ankur Gautam
+  structure:
+    - type: space
+      key: space-1
+      title: Ankur Gautam
+      path: ankur-gautam
+      default: true
+      content:
+        directory: ./ankur-gautam
