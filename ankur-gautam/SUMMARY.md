@@ -237,6 +237,7 @@
         * [Dead Freight](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/dead-freight.md)
         * [Glitched Transit](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/glitched-transit.md)
         * [GhostQuery](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/ghostquery.md)
+        * [Protocol Drift](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/protocol-drift.md)
 * [Container Security](container-security/README.md)
   * [Intro to Docker](container-security/intro-to-docker.md)
 * [RCE](rce/README.md)
