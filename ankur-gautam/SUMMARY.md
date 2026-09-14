@@ -235,6 +235,7 @@
         * [In a Pickle](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/in-a-pickle.md)
         * [Ghost Ship](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/ghost-ship.md)
         * [Dead Freight](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/dead-freight.md)
+        * [Glitched Transit](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/glitched-transit.md)
 * [Container Security](container-security/README.md)
   * [Intro to Docker](container-security/intro-to-docker.md)
 * [RCE](rce/README.md)
