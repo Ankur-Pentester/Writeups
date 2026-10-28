@@ -252,6 +252,7 @@
     * [Page 7](ai-security-hackthebox-content/fundamentals-of-ai/page-7.md)
 * [Active Directory ( CTF )](active-directory-ctf/README.md)
   * [VulnNet: Roasted](active-directory-ctf/vulnnet-roasted.md)
+  * [Fusion Corp](active-directory-ctf/fusion-corp.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)
