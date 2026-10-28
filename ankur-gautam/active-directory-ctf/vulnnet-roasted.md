@@ -44,7 +44,7 @@ Then Collect the all names from the all files .
 
 Then we use the Username Enumeration tools to make the all types of possible usernames .
 
-[https://github.com/urbanadventurer/username-anarchy.git](https://github.com/urbanadventurer/username-anarchy.git)
+{% embed url="https://github.com/urbanadventurer/username-anarchy.git" %}
 
 ```
 username-anarchy --input-file users.txt > usernames.txt

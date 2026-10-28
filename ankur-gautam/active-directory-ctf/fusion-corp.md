@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure>
 
-[https://tryhackme.com/room/fusioncorp](https://tryhackme.com/room/fusioncorp)
+{% embed url="https://tryhackme.com/room/fusioncorp" %}
 
 ***
 
@@ -42,15 +42,13 @@ libreoffice --calc employees.ods
 
 Save All THe name in The names.txt and Then use the userenumeration Tool !
 
-
+{% embed url="https://github.com/urbanadventurer/username-anarchy.git" %}
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
 username-anarchy --input-file names.txt > usernames.txt
 ```
 {% endcode %}
-
-
 
 TEST
 
