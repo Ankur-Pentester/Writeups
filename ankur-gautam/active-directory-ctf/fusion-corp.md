@@ -233,6 +233,8 @@ impacket-secretsdump -sam sam -system system -ntds ntds.dit LOCAL
 ```
 {% endcode %}
 
+<figure><img src="../.gitbook/assets/image (940).png" alt=""><figcaption></figcaption></figure>
+
 Pass the hash attack !
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
