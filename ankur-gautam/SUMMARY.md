@@ -254,6 +254,7 @@
   * [VulnNet: Roasted](active-directory-ctf/vulnnet-roasted.md)
   * [Fusion Corp](active-directory-ctf/fusion-corp.md)
   * [Proxy](active-directory-ctf/proxy.md)
+  * [Forward](active-directory-ctf/forward.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)
