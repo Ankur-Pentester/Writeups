@@ -257,6 +257,7 @@
   * [Forward](active-directory-ctf/forward.md)
   * [Ledger](active-directory-ctf/ledger.md)
   * [Reset](active-directory-ctf/reset.md)
+  * [Operation Endgame](active-directory-ctf/operation-endgame.md)
 * [RCE](rce/README.md)
   * [Pickle RCE In Cookie](rce/pickle-rce-in-cookie.md)
 * [Programming Language](programming-language/README.md)

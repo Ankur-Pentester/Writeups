@@ -30,7 +30,7 @@ We Use The Header Finder Extension again and We Got another Header `X-Forwarded-
 
 Send this request and notice that the `Location` header of the 302 redirect now points to `https://evil.com/`.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 We Find The Static Resources and This Help to Serve The malicious Code In Static Resources !!
 

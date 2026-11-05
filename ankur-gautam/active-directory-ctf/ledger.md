@@ -1,6 +1,6 @@
 # Ledger
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://tryhackme.com/room/ledger" %}
 

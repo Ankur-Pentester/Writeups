@@ -4,6 +4,8 @@
 
 {% embed url="https://tryhackme.com/room/forwardchallenge" %}
 
+{% embed url="https://www.youtube.com/watch?v=hNsX5kw4OQA" %}
+
 ***
 
 Given
