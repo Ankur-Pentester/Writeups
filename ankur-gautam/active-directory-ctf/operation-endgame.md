@@ -4,6 +4,8 @@
 
 {% embed url="https://tryhackme.com/room/operationendgame" %}
 
+{% embed url="https://www.youtube.com/watch?v=qrsvtUZOUA4" %}
+
 ***
 
 An initial scan using `RustScan` and `Nmap` identified multiple services associated with Active Directory infrastructure.
