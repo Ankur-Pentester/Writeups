@@ -1,5 +1,5 @@
 ---
-icon: star
+icon: brain-circuit
 ---
 
 # Agentic AI CTF
