@@ -240,6 +240,8 @@
         * [Glitched Transit](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/glitched-transit.md)
         * [GhostQuery](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/ghostquery.md)
         * [Protocol Drift](ai-security-tryhackme-content/ai-ctf/2026-an-ai-odyssey/vectara/protocol-drift.md)
+* [Agentic AI CTF](agentic-ai-ctf/README.md)
+  * [Proxy Meeting](agentic-ai-ctf/proxy-meeting.md)
 * [AI Security ( Hackthebox Content )](ai-security-hackthebox-content/README.md)
   * [Fundamentals of AI](ai-security-hackthebox-content/fundamentals-of-ai/README.md)
     * [Introduction to Machine Learning](ai-security-hackthebox-content/fundamentals-of-ai/introduction-to-machine-learning/README.md)
